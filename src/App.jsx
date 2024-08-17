@@ -19,7 +19,6 @@ const App = () => {
       <div className='w-full'>
         <Navbar />
       </div>
-      <div>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/school' element={<School />} />
@@ -32,7 +31,6 @@ const App = () => {
         <Route path='/zero' element={<Zero />} />
         <Route path='/register' element={<Register />} />
       </Routes>
-      </div>
       <div className='w-full'>
         <Footer />
       </div>
