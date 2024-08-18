@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'lightgray': '#262626',
-
+        'darkgrey': '#e4e4e7'
       }
     },
   },
