@@ -43,13 +43,12 @@ const Home = () => {
         <p className='font-sans my-4'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Грантовый конкурс </span>для талантливых педагогов со всей России</p>
         </div>
 
-      <div className='flex flex-col'>
-
-        <div className='flex flex-row justify-center'>
+      <div className=''>
+        <div className='flex md:flex-row  flex-col justify-center'>
         <div className='bg-darkgrey rounded-3xl'>
          <img src={flower} alt='flowerhome' className='w-[720px] h-[560px] object-contain ' />
         </div>
-        <div className='flex flex-col gap-6 mx-10 mt-6'>
+        <div className='flex flex-col items-center gap-6 md:mx-10 mx-10 mt-6'>
           {payment.map((pay, index) => (
             <div className='max-w-[320px]' key={index}>
               <h1 className='font-bold text-[22px]'>{pay.title}</h1>
@@ -65,15 +64,22 @@ const Home = () => {
 
       </div>
 
-      <div className='flex justify-center'>
+      <div className='flex flex-col'>
 
         <div className='flex flex-col items-center'> 
          <HeadText title="Центральный университет" />
-          <p className='font-sans my-4'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Запустили</span> частный университет на основе STEM-модели</p>
+          <p className='font-sans my-4 text-center'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Запустили</span> частный университет на основе STEM-модели</p>
         </div>
 
+        <div className='flex flex-col items-center'>
+        <iframe width="860" height="515" src="https://www.youtube.com/embed/vBeypCq8c6Y?si=k7anpMLNxu31pSCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='rounded-3xl mt-10'></iframe>
         <div className=''>
-          
+        <h1 className='font-bold text-[20px] my-2'>О Центральном университете</h1>
+        <p className='font-sans max-w-[860px]'>Рассказываем о будущем технического образования, рынка труда в эпоху нейросетей и первой программе университета</p>
+        </div>
+
+        <BlueButton title="Узнать подтробнее про обучение"/>
+
         </div>
 
       </div>

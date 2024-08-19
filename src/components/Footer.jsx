@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='bg-lightgray'>
       <div className='md:px-[170px] px-[16px]'>
-        <Link to='/'><img src={footericon} alt='logofooter' className='w-[120px] h-[150px] py-6 cursor-pointer'/></Link>
+        <Link to='/'><img src={footericon} alt='logofooter' className='w-[130px] h-[150px] py-6 cursor-pointer'/></Link>
         <p className='font-sans text-[13px] text-gray-400 my-4'>По всем вопросам обращайтесь на <span className='font-sans transition ease-in cursor-pointer text-[13px] text-gray-400 hover:text-gray-200'>best-talents@tinkoff.ru</span></p>
         <div className=''>
           <ul className='gap-5 flex flex-wrap cursor-pointer'>
