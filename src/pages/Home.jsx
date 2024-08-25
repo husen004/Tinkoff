@@ -6,6 +6,7 @@ import { payment } from '../constants'
 import HeadText from '../components/HeadText'
 import flower from '../assets/images/flower.webp'
 import BlueButton from '../components/BlueButton'
+import forschool from '../assets/images/forschool.webp';
 
 const Home = () => {
   return (
@@ -64,15 +65,24 @@ const Home = () => {
 
       </div>
 
-      <div className='flex flex-col'>
+      <div className='flex flex-col justify-center items-center'>
 
         <div className='flex flex-col items-center'> 
          <HeadText title="Центральный университет" />
           <p className='font-sans my-4 text-center'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Запустили</span> частный университет на основе STEM-модели</p>
         </div>
 
-        <div className='flex flex-col items-center'>
-        <iframe width="860" height="515" src="https://www.youtube.com/embed/vBeypCq8c6Y?si=k7anpMLNxu31pSCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='rounded-3xl mt-10'></iframe>
+        <div className='max-w-[800px] flex flex-col items-center'>
+        <iframe
+        src="https://www.youtube.com/embed/vBeypCq8c6Y?si=k7anpMLNxu31pSCH" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        className='player'
+        ></iframe>
+
         <div className=''>
         <h1 className='font-bold text-[20px] my-2'>О Центральном университете</h1>
         <p className='font-sans max-w-[860px]'>Рассказываем о будущем технического образования, рынка труда в эпоху нейросетей и первой программе университета</p>
@@ -82,6 +92,25 @@ const Home = () => {
 
         </div>
 
+      </div>
+
+        <HeadText title="Для школьников" />
+        
+      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105'>
+        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
+          <div className='flex flex-col  max-w-[550px] mx-8'>
+            <h4 className='font-bold text-[23px] mt-8'>Бесплатные проекты для разных уровней подготовки</h4>
+            <ul className='my-2 max-w-[350px]'>
+              <li className='my-4 font-sans'>- Курсы по сфере ИТ</li>
+              <li className='my-4 font-sans'>- Подготовка к олипиадам и подкурсам по программированию и математики</li>
+              <li className='my-4 font-sans'>- Мурояприятие, тематическое соревнование и партнерские программы</li>
+            </ul>
+            <button className='flex justify-start transition ease-in hover:text-blue-700 text-blue-500 my-6'>Выбрать напровление</button>
+          </div>
+          <div className='flex items-end'>
+            <img src={forschool} alt='' className='w-[456px] h-[222px] object-cover bottom-0' />
+          </div>
+        </div>
       </div>
 
     </div>

@@ -10,12 +10,12 @@ const Footer = () => {
         <p className='font-sans text-[13px] text-gray-400 my-4'>По всем вопросам обращайтесь на <span className='font-sans transition ease-in cursor-pointer text-[13px] text-gray-400 hover:text-gray-200'>best-talents@tinkoff.ru</span></p>
         <div className=''>
           <ul className='gap-5 flex flex-wrap cursor-pointer'>
-            <li className=' font-sans text-[13px] text-gray-400 hover:text-gray-200'>Почта</li>
-            <li className=' font-sans text-[13px] text-gray-400 hover:text-gray-200'>ВКонтакте</li>
-            <li className=' font-sans text-[13px] text-gray-400 hover:text-gray-200'>Телеграм</li>
-            <li className=' font-sans text-[13px] text-gray-400 hover:text-gray-200'>Оферта</li>
+            <li className='transition ease-in font-sans text-[13px] text-gray-400 hover:text-gray-200'>Почта</li>
+            <li className='transition ease-in font-sans text-[13px] text-gray-400 hover:text-gray-200'>ВКонтакте</li>
+            <li className='transition ease-in font-sans text-[13px] text-gray-400 hover:text-gray-200'>Телеграм</li>
+            <li className='transition ease-in font-sans text-[13px] text-gray-400 hover:text-gray-200'>Оферта</li>
           </ul>
-          <li className='list-none font-sans text-[13px] text-gray-400 hover:text-gray-200 border-[1px] border-lightgray border-b-gray-500 pb-4'>Сведения об образовательной организации</li>
+          <li className='transition ease-in list-none font-sans text-[13px] text-gray-400 hover:text-gray-200 border-[1px] border-lightgray border-b-gray-500 pb-4'>Сведения об образовательной организации</li>
         </div>
       </div>
 
