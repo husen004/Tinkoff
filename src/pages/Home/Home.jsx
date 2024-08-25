@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from '../components/Button';
-import prog from '../assets/images/prog.webp';
-import { course } from '../constants';
-import { payment } from '../constants'
-import HeadText from '../components/HeadText'
-import flower from '../assets/images/flower.webp'
-import BlueButton from '../components/BlueButton'
-import forschool from '../assets/images/forschool.webp';
+import { course } from '../../constants';
+import { payment } from '../../constants'
+import Button from '../../components/Button';
+import prog from '../../assets/images/prog.webp';
+import HeadText from '../../components/HeadText'
+import flower from '../../assets/images/flower.webp'
+import BlueButton from '../../components/BlueButton'
+import forschool from '../../assets/images/forschool.webp';
 
 const Home = () => {
   return (

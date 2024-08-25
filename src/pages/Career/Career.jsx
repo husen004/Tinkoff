@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../components/Button'
-import HeadText from '../components/HeadText'
-import headcarer from '../assets/images/headcarer.webp'
+import Button from '../../components/Button'
+import HeadText from '../../components/HeadText'
+import headcarer from '../../assets/images/headcarer.webp'
 
 
 const Career = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../components/Button'
-import BlueButton from '../components/BlueButton'
-import HeadText from '../components/HeadText'
-import headpoko from '../assets/images/headpoko.webp'
+import Button from '../../components/Button'
+import BlueButton from '../../components/BlueButton'
+import HeadText from '../../components/HeadText'
+import headpoko from '../../assets/images/headpoko.webp'
 
 const Poko = () => {
   return (

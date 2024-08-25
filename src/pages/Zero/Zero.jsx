@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../components/Button'
-import HeadText from '../components/HeadText'
-import headzero from '../assets/images/headzero.webp'
+import Button from '../../components/Button'
+import HeadText from '../../components/HeadText'
+import headzero from '../../assets/images/headzero.webp'
 
 
 const Zero = () => {

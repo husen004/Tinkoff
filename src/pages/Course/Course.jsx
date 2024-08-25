@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from '../components/Button'
-import HeadText from '../components/HeadText'
+import Button from '../../components/Button'
+import HeadText from '../../components/HeadText'
 
 const Course = () => {
   return (

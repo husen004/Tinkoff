@@ -1,7 +1,7 @@
 import React from 'react'
-import HeadText from '../components/HeadText'
-import Button from '../components/Button'
-import headevent from '../assets/images/headevent.webp'
+import HeadText from '../../components/HeadText'
+import Button from '../../components/Button'
+import headevent from '../../assets/images/headevent.webp'
 
 const Event = () => {
   return (

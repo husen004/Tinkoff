@@ -1,5 +1,5 @@
 import React from 'react'
-import headevent from '../assets/images/headevent.webp'
+import headevent from '../../assets/images/headevent.webp'
 
 const Register = () => {
   return (

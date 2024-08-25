@@ -1,7 +1,7 @@
 import React from 'react'
-import HeadText from '../components/HeadText'
-import Button from '../components/Button'
-import headuni from '../assets/images/headuni.webp'
+import HeadText from '../../components/HeadText'
+import Button from '../../components/Button'
+import headuni from '../../assets/images/headuni.webp'
 
 const Uni = () => {
   return (
