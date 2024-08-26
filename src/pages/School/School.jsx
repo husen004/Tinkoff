@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
-import headschool from '../../assets/images/forschool.webp'
+import headschool from '../../assets/images/headschool.webp'
 
 const School = () => {
   return (
