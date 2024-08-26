@@ -24,7 +24,7 @@ const Poko = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headpoko} alt='poko' className='object-cover'/>
+        <img src={headpoko} alt='poko' className='object-cover w-[80%]'/>
       </div>  
 
     </div>

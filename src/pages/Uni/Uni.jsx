@@ -20,7 +20,7 @@ const Uni = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-       <img src={headuni} alt='uni' className='object-cover'/>
+       <img src={headuni} alt='uni' className='object-cover w-[80%]'/>
       </div> 
 
     </div>

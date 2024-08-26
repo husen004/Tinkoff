@@ -20,7 +20,7 @@ const Event = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headevent} alt='event' className='object-cover'/>
+        <img src={headevent} alt='event' className='object-cover w-[80%]'/>
       </div>  
 
     </div>

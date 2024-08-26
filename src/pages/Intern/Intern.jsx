@@ -20,7 +20,7 @@ const Intern = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headintern} alt='intern' className='object-cover'/>
+        <img src={headintern} alt='intern' className='object-cover w-[80%]'/>
       </div> 
 
     </div>

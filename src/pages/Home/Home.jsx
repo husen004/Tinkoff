@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={prog} alt='Программы' className='object-cover h-460'/>
+        <img src={prog} alt='Программы' className='object-cover w-[80%]'/>
       </div>  
       
     <div className='flex flex-wrap justify-center items-cetner gap-10 my-10'>
@@ -36,8 +36,8 @@ const Home = () => {
           <p className='font-sans max-w-[450px] mt-2 text-[15px]'>{c.para}</p>
           </div>
         </div>
-      ))}
-      </div>
+        ))}
+    </div>
 
         <div className='flex justify-center items-center flex-col'>
         <HeadText title="Вклад в поколение" />

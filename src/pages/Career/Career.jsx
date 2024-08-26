@@ -21,7 +21,7 @@ const Career = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headcarer} alt='carer' className='object-cover'/>
+        <img src={headcarer} alt='carer' className='object-cover w-[80%]'/>
       </div>  
 
     </div>

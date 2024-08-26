@@ -21,7 +21,7 @@ const Zero = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headzero} alt='zero' className='object-cover'/>
+        <img src={headzero} alt='zero' className='object-cover w-[80%]'/>
       </div>
 
     </div>
