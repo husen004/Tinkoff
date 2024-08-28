@@ -15,7 +15,7 @@ function handleToggle() {
 }
 
   return (
-    <div className='fixed w-full border-[1px] border-b-grey-100 opacity-95 '>
+    <div className='fixed w-full border-[1px] border-b-grey-100 opacity-95 z-10 '>
     <div className='bg-white flex md:justify-evenly justify-between items-center flex-row py-4 m-auto'>
       <div className=''>
         <Link to='/'><img src={Logo} alt='Logo' className='cursor-pointer w-[95px] h-[34px] md:mx-0 mx-6'/></Link>

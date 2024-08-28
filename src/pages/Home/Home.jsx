@@ -98,7 +98,7 @@ const Home = () => {
 
         <HeadText title="Для школьников" />
         
-      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105'>
+      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105 cursor-pointer'>
         <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
           <div className='flex flex-col  max-w-[550px] mx-8'>
             <h4 className='font-bold text-[23px] mt-8'>Бесплатные проекты для разных уровней подготовки</h4>
@@ -139,7 +139,7 @@ const Home = () => {
 
       <HeadText title="Для специалистов с опытом" />
 
-      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105'>
+      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105 cursor-pointer'>
         <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
           <div className='flex flex-col  max-w-[550px] mx-8'>
             <h4 className='font-bold text-[23px] mt-8'>Т-Банк Финтех Мидл</h4>
@@ -155,6 +155,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <HeadText title="Мероприятия в Т‑Банке" />
 
       
     </div>
