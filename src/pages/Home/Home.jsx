@@ -121,12 +121,12 @@ const Home = () => {
         {forSchool.map((f, index) => (
           <div className='w-full flex flex-wrap bg-white rounded-3xl gap-4 shadow-lg ' key={index}>
           <div className='flex flex-row '>
-            <div className='flex flex-col justify-start s '>
+            <div className='flex flex-col justify-start'>
               <h4 className='font-bold text-[23px]'>{f.title}</h4>
               <p className='font-sans max-w-[250px]'>{f.para}</p>
-              <h4 className='flexitems-end'>{f.btext}</h4>
+              <h4 className='flex items-end'>{f.btext}</h4>
             </div>
-            <img src={f.img} className='object-cover' />
+            <img src={f.img} className='object-cover w-[250px]'/>
           </div>
           </div>
         ))}
