@@ -8,6 +8,7 @@ import HeadText from '../../components/HeadText'
 import flower from '../../assets/images/flower.webp'
 import BlueButton from '../../components/BlueButton'
 import forschool from '../../assets/images/forschool.webp';
+import hometwo from '../../assets/images/hometwo.webp'
 
 const Home = () => {
   return (
@@ -114,9 +115,12 @@ const Home = () => {
         </div>
       </div>
 
-      <HeadText title="Для студентов и начинающих специалистов" />
 
-      <div className='flex justify-center mx-auto p-4'>
+      <div className='mb-10'>
+        <HeadText title="Для студентов и начинающих специалистов" />
+      </div>
+
+      <div className='flex justify-center mx-auto mb-16'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
         {forSchool.map((f, index) => (
           <div className='w-full flex flex-wrap bg-white rounded-3xl gap-4 shadow-lg ' key={index}>
@@ -133,7 +137,24 @@ const Home = () => {
       </div>
       </div>
 
+      <HeadText title="Для специалистов с опытом" />
 
+      <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105'>
+        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
+          <div className='flex flex-col  max-w-[550px] mx-8'>
+            <h4 className='font-bold text-[23px] mt-8'>Т-Банк Финтех Мидл</h4>
+            <ul className='my-2 max-w-[550px]'>
+              <li className='my-4 font-sans'>- Бесплатные интенсивы для опытных разработчиков, аналитиков, менеджеров и других специалистов</li>
+              <li className='my-4 font-sans'>- Читаем курсы по Java, Scala, Kotlin, iOS, SRE и другим направлениям</li>
+              <li className='my-4 font-sans'>- Обмениваемся опытом</li>
+            </ul>
+            <button className='flex justify-start transition ease-in hover:text-blue-700 text-blue-500 my-6'>Выбрать напровление</button>
+          </div>
+          <div className='flex items-end'>
+            <img src={hometwo} alt='' className='w-[476px] h-[272px] object-cover bottom-0' />
+          </div>
+        </div>
+      </div>
 
       
     </div>
