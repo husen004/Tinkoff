@@ -132,7 +132,7 @@ const Home = () => {
               <p className='font-sans max-w-[250px]'>{f.para}</p>
               <h4 className='flex items-end'>{f.btext}</h4>
             </div>
-            <img src={f.img} className='object-cover w-[250px]'/>
+            <img src={f.img} className='object-cover'/>
           </div>
           </div>
         ))}
