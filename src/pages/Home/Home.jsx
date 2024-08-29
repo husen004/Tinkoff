@@ -9,6 +9,8 @@ import flower from '../../assets/images/flower.webp'
 import BlueButton from '../../components/BlueButton'
 import forschool from '../../assets/images/forschool.webp';
 import hometwo from '../../assets/images/hometwo.webp'
+import eventp1 from '../../assets/images/eventp1.webp';
+import eventp2 from '../../assets/images/eventp2.webp';
 
 const Home = () => {
   return (
@@ -82,7 +84,7 @@ const Home = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen 
-        className='player'
+        className='player rounded-3xl'
         ></iframe>
 
         <div className=''>
@@ -158,7 +160,49 @@ const Home = () => {
 
       <HeadText title="Мероприятия в Т‑Банке" />
 
+      <div className='flex flex-wrap justify-center items-center gap-10 my-14'>
+
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg'>
+          <h4 className='font-bold text-[23px] mt-8'>Олимпиады и хакатоны</h4>
+          <p className='font-sans my-4 max-w-[440px]'>Устраиваем математические игры и проводим командные чемпионаты</p>
+          <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
+          <div className='mt-6'> 
+           <img src={eventp1} className='h-[240px] w-[528px]'/>
+          </div>
+        </div>
+
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg'>
+          <h4 className='font-bold text-[23px] mt-8'>Митапы</h4>
+          <p className='font-sans my-4 max-w-[440px]'>Совместно с командой DevRel организовываем <br /> митапы</p>
+          <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
+          <div className='mt-6'> 
+           <img src={eventp2} className='h-[240px] w-[528px]'/>
+          </div>
+        </div>
+
+      </div>
+
+      <HeadText title="Про нас в цифрах и картинках" />
       
+      <div className='flex justify-center my-10'>
+      <iframe 
+      src="https://www.youtube.com/embed/GoVIb2lCHrs?si=rugWgOFPGgexowuP" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; 
+      clipboard-write; 
+      encrypted-media; 
+      gyroscope; 
+      picture-in-picture; 
+      web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen
+      className='player rounded-3xl max-w-[800px]'
+      ></iframe>
+      </div>
+
+
     </div>
   )
 }
