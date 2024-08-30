@@ -10,6 +10,10 @@ import forschool3 from './icons/forschool3.webp';
 import careericon1 from './icons/careericon1.svg';
 import careericon2 from './icons/careericon2.svg';
 import careericon3 from './icons/careericon3.svg';
+import zeroicon1 from './icons/careericon1.svg'
+import zeroicon2 from './icons/careericon2.svg'
+import zeroicon3 from './icons/careericon3.svg'
 
 
-export { icon1, icon2, icon3, icon4, icon5, icon6, forschool1, forschool2, forschool3, careericon1, careericon2, careericon3 };
+
+export { zeroicon3, zeroicon2, zeroicon1, icon1, icon2, icon3, icon4, icon5, icon6, forschool1, forschool2, forschool3, careericon1, careericon2, careericon3 };

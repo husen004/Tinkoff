@@ -1,0 +1,24 @@
+<svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1424_5422)">
+<mask id="mask0_1424_5422" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="3" width="28" height="31">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.9961 12.75H20.9961L21.401 7.48675C21.5871 5.0665 19.6735 3 17.2461 3L12.7461 15.75C12.7461 20.0824 12.7461 30.75 12.7461 30.75H25.4494C28.4753 30.75 31.0277 28.4968 31.4031 25.4942L32.9961 12.75Z" fill="url(#paint0_linear_1424_5422)"/>
+<path d="M12.7461 15.75H9.74609C7.26081 15.75 5.24609 17.7647 5.24609 20.25V30.75H12.7461V15.75Z" fill="url(#paint1_linear_1424_5422)"/>
+</mask>
+<g mask="url(#mask0_1424_5422)">
+<path d="M0.746094 3H36.7461V39H0.746094V3Z" fill="#5F5F5F"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1424_5422" x1="23.0695" y1="3" x2="23.0695" y2="30.75" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="1" stop-opacity="0.8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1424_5422" x1="12.7461" y1="15.75" x2="5.99609" y2="30.75" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.5"/>
+<stop offset="1" stop-opacity="0.3"/>
+</linearGradient>
+<clipPath id="clip0_1424_5422">
+<rect width="36" height="36" fill="white" transform="translate(0.746094)"/>
+</clipPath>
+</defs>
+</svg>

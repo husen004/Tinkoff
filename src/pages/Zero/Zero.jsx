@@ -24,6 +24,9 @@ const Zero = () => {
         <img src={headzero} alt='zero' className='object-cover w-[80%]'/>
       </div>
 
+      <HeadText title="ИТ-курсы от Т‑Образования" />
+      <p className='font-sans my-4 text-center'>Для всех желающих. Ждем учеников любого возраста</p>
+
     </div>
   )
 }
