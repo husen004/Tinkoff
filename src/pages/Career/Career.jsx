@@ -4,6 +4,7 @@ import Button from '../../components/Button'
 import HeadText from '../../components/HeadText'
 import headcarer from '../../assets/images/headcarer.webp'
 import careerimg from '../../assets/images/careerimg.webp'
+import careerimg2 from '../../assets/images/careerimg2.webp'
 
 
 const Career = () => {
@@ -53,6 +54,24 @@ const Career = () => {
         </div>
 
       </div>
+      </div>
+
+      <HeadText title="Для преподавателей" />
+
+      <div className='flex justify-center my-10'>
+        <div className='flex flex-col md:flex-row bg-darkgrey rounded-3xl shadow-xl transition ease-in hover:scale-105 cursor-pointer'>
+
+        <div className='mt-10 ml-6'>
+          <h4 className='font-bold text-[23px]'>Работы в Т-Образование</h4>
+          <p className='font-sans max-w-[495px] mt-4'>Приглашаем преподавателей, разработчиков, студентов и выпускников делиться опытом и знаниями</p>
+          <button className='mt-[70px] transition ease-in hover:text-blue-700 text-blue-500'>Посмотреть вакансии</button>
+        </div>
+
+        <div className=''>
+          <img src={careerimg2} className='object-cover w-[528px] h-[260px' />
+        </div>
+
+        </div>
       </div>
 
     </div>
