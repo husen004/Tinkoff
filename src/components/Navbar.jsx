@@ -22,6 +22,7 @@ function handleToggle() {
       </div>
       <div className=''>
       <ul className='md:gap-4 gap-2 md:flex hidden text-xs text-gray-500'>
+          <li><Link to='/zero' className='transition ease-in hover:text-gray-700'>С нуля</Link></li>
           <li><Link to='/school' className='transition ease-in hover:text-gray-700'>Школьникам</Link></li>
           <li><Link to='/course' className='transition ease-in hover:text-gray-700'>Финтех курсы</Link></li>
           <li><Link to='/intern' className='transition ease-in hover:text-gray-700'>Стажировка</Link></li>
@@ -29,7 +30,6 @@ function handleToggle() {
           <li><Link to='/poko' className='transition ease-in hover:text-gray-700'>Вклад в поколение</Link></li>
           <li><Link to='/event' className='transition ease-in hover:text-gray-700'>Мероприятние</Link></li>
           <li><Link to='/career' className='transition ease-in hover:text-gray-700'>Карьера</Link></li>
-          <li><Link to='/zero' className='transition ease-in hover:text-gray-700'>С нуля</Link></li>
         </ul>
       </div>
       <div className='md:flex hidden'>
@@ -41,6 +41,7 @@ function handleToggle() {
       </div>
       <div className={`transition ease-in absolute lg:hidden top-20 left-0 w-full bg-white flex flex-col items-center gap-6 text-lg rounded-lg ${toggle ? "flex" : "hidden"}`}>
         <ul className='text-center my-6 w-full '>
+          <li className='my-4 hover:text-gray-700'><Link to='/zero'>С нуля</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/school'>Школьникам</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/course'>Финтех курсы</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/intern'>Стажировка</Link></li>
@@ -48,7 +49,6 @@ function handleToggle() {
           <li className='my-4 hover:text-gray-700'><Link to='/poko'>Вклад в поколение</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/event'>Мероприятние</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/career'>Карьера</Link></li>
-          <li className='my-4 hover:text-gray-700'><Link to='/zero'>С нуля</Link></li>
           <li className='text-yellow-400 hover:text-yellow-600 cursor-pointer list-none my-6'><Link to='/register'>Вход</Link></li>
         </ul>
       </div>
