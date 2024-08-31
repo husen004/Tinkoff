@@ -80,6 +80,12 @@ const Zero = () => {
         </div>
       </div>
 
+      <HeadText title="Часто задаваемые вопросы" />
+
+      <div className=''>
+        
+      </div>
+
     </div>
   )
 }
