@@ -14,16 +14,3 @@ body {
   aspect-ratio: 16 / 9 ;
   width: 100%;
 }
-
-#loading:hover {
-  -webkit-animation: rotation 0.5s  linear;
-}
-
-@-webkit-keyframes rotation {
-  from {
-          -webkit-transform: rotate(0deg);
-  }
-  to {
-          -webkit-transform: rotate(180deg);
-  }
-}
