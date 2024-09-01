@@ -100,12 +100,12 @@ const Zero = () => {
             <div className='w-full  cursor-pointer my-6 mx-6 ' onClick={handleOpen} key={index}>
               <div className='flex flex-row justify-between transition ease-in hover:opacity-70'>
               <h4 className='font-bold md:text-[23px] text-[14px] transition ease-in hover:opacity-60 '>{f.title}</h4>
-              <div className=' mr-6 cursor-pointer pr-8'>
+              <div className={`mr-6 cursor-pointer pr-8 transform origin-center transition duration-200 ease-out ${open && "!rotate-"}`}>
                 {open ? <Icon icon={arrow_up} size={28} /> : <Icon icon={arrow_down} size={28} />}
               </div>
               </div>
-              <div className={`flex items-center ${open ? "block" : "hidden"}`}>
-                <p className='font-sans mt-4 max-w-[950px]'>{f.para}</p>
+              <div className={`grid overflow-hidden transition-all duration-700 ease-in-out ${open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
+                <p className='flex ml-4 overflow-hidden font-sans mt-1 max-w-[930px]'>{f.para}</p>
               </div>
             </div>
           ))}
