@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
+import stabsp3 from '../../assets/images/stabsp3.webp'
+import stabsp4 from '../../assets/images/stabsp4.webp'
+import stabsp5 from '../../assets/images/stabsp5.webp'
+import stabsp6 from '../../assets/images/stabsp6.webp'
 import headschool from '../../assets/images/headschool.webp'
 import schoolicon from '../../assets/icons/schoolicon.svg'
 import stabsp1 from '../../assets/icons/stabsp1.webp'
@@ -8,15 +12,18 @@ import stabsp2 from '../../assets/icons/stabsp2.webp'
 import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
 
+
 const School = () => {
-
+  
   const [tabs, setTabs] = useState(1)
-
+  
   function handleTabs(i) {
     setTabs(i)
   }
-
+  
   return (
+  
+    
     <div className='w-full'>
 
       <div className='flex justify-center items-center flex-col pt-[100px]'>
@@ -72,6 +79,8 @@ const School = () => {
           </div>
         </div>
         </div>
+        
+        
 
       <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 1 ? "block" : "hidden"}`}>
           <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
@@ -158,11 +167,182 @@ const School = () => {
 
       </div>
 
-      <div className={`${tabs === 2 ? "block" : "hidden"}`}>
+      
+      <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 2 ? "block" : "hidden"}`}>
+
+          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+
+            <div className='ml-6 mt-4'>  
+              
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+                <img src={schoolicon} alt='schoolicon' className='object-cover' />
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
+              </div>
+              <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
+              
+              <div className='flex flex-row gap-16 mt-8 mr-8'>
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Много практики</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[160px]'>Каждую неделю решаем тематические задачи</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Отбор</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>Нужно сдать вступительный экзамен</p>
+                </div>
+
+              </div>
+
+              <div className='mt-8'>
+                <Button title="Узнать подробнее" />
+              </div>
+
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <img src={stabsp3} alt='stabsp3' className='object-cover w-[440px] h-[410] rounded-3xl' />
+            </div>
+
+          </div>
+
+          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+
+            <div className='ml-6 mt-4'>  
+              
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+                <img src={schoolicon} alt='schoolicon' className='object-cover' />
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
+              </div>
+              <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
+              
+              <div className='flex flex-row gap-16 mt-8 mr-8'>
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Много практики</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[160px]'>Каждую неделю решаем тематические задачи</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Отбор</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>Нужно сдать вступительный экзамен</p>
+                </div>
+
+              </div>
+
+              <div className='mt-8'>
+                <Button title="Узнать подробнее" />
+              </div>
+
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <img src={stabsp4} alt='stabsp4' className='object-cover w-[440px] h-[410] rounded-3xl' />
+            </div>
+
+          </div>
+          
+          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+
+            <div className='ml-6 mt-4'>  
+              
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+                <img src={schoolicon} alt='schoolicon' className='object-cover' />
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
+              </div>
+              <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
+              
+              <div className='flex flex-row gap-16 mt-8 mr-8'>
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Много практики</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[160px]'>Каждую неделю решаем тематические задачи</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Отбор</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>Нужно сдать вступительный экзамен</p>
+                </div>
+
+              </div>
+
+              <div className='mt-8'>
+                <Button title="Узнать подробнее" />
+              </div>
+
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <img src={stabsp5} alt='stabsp5' className='object-cover w-[440px] h-[410] rounded-3xl' />
+            </div>
+
+          </div>
+
+          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+
+            <div className='ml-6 mt-4'>  
+              
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+                <img src={schoolicon} alt='schoolicon' className='object-cover' />
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
+              </div>
+              <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
+              
+              <div className='flex flex-row gap-16 mt-8 mr-8'>
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Много практики</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[160px]'>Каждую неделю решаем тематические задачи</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Отбор</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>Нужно сдать вступительный экзамен</p>
+                </div>
+
+              </div>
+
+              <div className='mt-8'>
+                <Button title="Узнать подробнее" />
+              </div>
+
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <img src={stabsp6} alt='stabsp6' className='object-cover w-[440px] h-[410] rounded-3xl' />
+            </div>
+
+          </div>
 
       </div>
 
+      <HeadText title="Мероприятия" />
+
+       
+
     </div>
+
+        
   )
 }
 
