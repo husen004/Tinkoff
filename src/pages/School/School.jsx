@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
 import headschool from '../../assets/images/headschool.webp'
+import schoolicon from '../../assets/icons/schoolicon.svg'
+import stabsp1 from '../../assets/icons/stabsp1.webp'
 import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
 
@@ -14,7 +16,7 @@ const School = () => {
   }
 
   return (
-    <div className='relative w-full'>
+    <div className='w-full'>
 
       <div className='flex justify-center items-center flex-col pt-[100px]'>
 
@@ -62,13 +64,62 @@ const School = () => {
       <div className='flex justify-center py-10'>
         <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 '>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer'>
-             <button className='my-4' onClick={handleTabs(1)}>Подготовка к олимпиадам</button>
+             <button className='my-4' onClick={() => handleTabs(1)}>Подготовка к олимпиадам</button>
           </div>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer'>
-             <button className='my-4' onClick={handleTabs(2)}>Базовые</button>
+             <button className='my-4' onClick={() => handleTabs(2)}>Базовые</button>
           </div>
         </div>
         </div>
+
+      <div className={`flex flex-row justify-center ${tabs === 1 ? "block" : "hidden"}`}>
+          <div className='flex flex-col md:flex-row bg-white rounded-3xl mx-2'>
+
+            <div className='ml-6 mt-4'>  
+              
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+                <img src={schoolicon} alt='schoolicon' className='object-cover' />
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
+              </div>
+              <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
+              
+              <div className='flex flex-row gap-16 mt-8 mr-8'>
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Много практики</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[160px]'>Каждую неделю решаем тематические задачи</p>
+                </div>
+
+                <div className=''>
+                  <h4 className='font-bold text-[16px]'>Отбор</h4>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>Нужно сдать вступительный экзамен</p>
+                </div>
+
+              </div>
+
+              <div className='mt-8'>
+                <Button title="Узнать подробнее" />
+              </div>
+
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <img src={stabsp1} alt='stabsp1' className='object-cover w-[440px] h-[410] rounded-3xl' />
+            </div>
+
+          </div>
+
+      </div>
+
+      <div className={`${tabs === 2 ? "block" : "hidden"}`}>
+
+      </div>
+
     </div>
   )
 }
