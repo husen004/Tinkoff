@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
 import headschool from '../../assets/images/headschool.webp'
@@ -6,8 +6,15 @@ import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
 
 const School = () => {
+
+  const [tabs, setTabs] = useState(1)
+
+  function handleTabs(i) {
+    setTabs(i)
+  }
+
   return (
-    <div className='w-full'>
+    <div className='relative w-full'>
 
       <div className='flex justify-center items-center flex-col pt-[100px]'>
 
@@ -37,7 +44,7 @@ const School = () => {
         ))}
       </div>
 
-      <div className='flex justify-center mb-20'>
+      <div className='flex justify-center'>
         <div className='flex flex-row justify-evenly bg-white shadow-lg rounded-3xl gap-6 px-10 pt-3 pb-6 '>
           {sicon.map((s, index) => (
             <div className='h-full flex flex-col justify-center items-center' key={index} >
@@ -52,6 +59,16 @@ const School = () => {
 
       <HeadText title="Курсы" />
 
+      <div className='flex justify-center py-10'>
+        <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 '>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer'>
+             <button className='my-4' onClick={handleTabs(1)}>Подготовка к олимпиадам</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer'>
+             <button className='my-4' onClick={handleTabs(2)}>Базовые</button>
+          </div>
+        </div>
+        </div>
     </div>
   )
 }
