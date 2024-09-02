@@ -97,7 +97,7 @@ const Zero = () => {
       <HeadText title="Часто задаваемые вопросы" />
 
       <div className='flex justify-center my-10 mx-2'>
-        <div className='w-[1100px] flex flex-col justify-evenly bg-white rounded-3xl my-6 px-12'>
+        <div className='flex flex-col justify-evenly bg-white rounded-3xl my-6 px-12'>
           {FAQzero.map((f, index) => (
             <div className='w-full border-b border-gray-300 cursor-pointer my-6 mx-6 hover:opacity-60'  onClick={handleOpen} key={index}>
               <div className='flex flex-row justify-between transition ease-in hover:opacity-70'>

@@ -14,7 +14,30 @@ import {
     zeroicon1,
     zeroicon2,
     zeroicon3,
+    sicon1,
+    sicon2,
+    sicon3,
+    sicon4
 } from "../assets";
+
+export const sicon = [
+  {
+    icon: sicon1,
+    title: "Курсы",
+  },
+  {
+    icon: sicon2,
+    title: "Олимпиады",
+  },
+  {
+    icon: sicon3,
+    title: "Активность",
+  },
+  {
+    icon: sicon4,
+    title: "Партнерские программы",
+  },
+]
 
 export const course = [
     {

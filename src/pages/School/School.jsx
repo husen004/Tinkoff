@@ -3,6 +3,7 @@ import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
 import headschool from '../../assets/images/headschool.webp'
 import { courseSchool } from '../../constants'
+import { sicon } from '../../constants'
 
 const School = () => {
   return (
@@ -35,6 +36,21 @@ const School = () => {
         </div>
         ))}
       </div>
+
+      <div className='flex justify-center mb-20'>
+        <div className='flex flex-row justify-evenly bg-white shadow-lg rounded-3xl gap-6 px-10 pt-3 pb-6 '>
+          {sicon.map((s, index) => (
+            <div className='h-full flex flex-col justify-center items-center' key={index} >
+              <img src={s.icon} alt='sicon' className='mt-2 object-cover w-[25px] h-[25px]'/>
+              <div className='flex justify-center text-center h-[30px] cursor-pointer'>
+                <p className='font-sans text-[12px] max-w-[80px] hover:opacity-80 transition-all duration-300 ease-in-out'>{s.title}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <HeadText title="Курсы" />
 
     </div>
   )
