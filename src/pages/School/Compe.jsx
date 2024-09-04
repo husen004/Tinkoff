@@ -5,7 +5,7 @@ import stabs4 from '../../assets/images/stabs4.avif'
 
 const compe = () => {
   return (
-    <div className='flex justify-center gap-10 '>
+    <div className='flex flex-wrap justify-center gap-10 mx-4'>
         <div className='bg-white rounded-3xl shadow-xl flex md:flex-row flex-col p-6'>
             <div className=''>
               <h4 className='font-bold text-[22px]'>Математический квиз</h4>

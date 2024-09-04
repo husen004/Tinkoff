@@ -10,6 +10,8 @@ import schoolicon from '../../assets/icons/schoolicon.svg'
 import stabsp1 from '../../assets/icons/stabsp1.webp'
 import stabsp2 from '../../assets/icons/stabsp2.webp'
 import sgrayp from '../../assets/images/sgrayp.webp'
+import simg6 from '../../assets/images/simg6.webp'
+import simg7 from '../../assets/images/simg7.webp'
 import '../../index.css'
 import Explore from './Explore'
 import Prep from './Prep'
@@ -17,6 +19,8 @@ import Compe from './Compe'
 import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
 import GrayButton from '../../components/GrayButton'
+import BlueButton from '../../components/BlueButton'
+import WhiteButton from '../../components/WhiteButton'
 
 
 const School = () => {
@@ -405,7 +409,60 @@ const School = () => {
           
         </div>
         </div>
+
+        <div className='flex justify-center md:flex-row flex-col gap-10 mb-10'> 
+
+          <div className='bg-white rounded-3xl shadow-xl p-8'>
+            <h5 className='text-gray text-[14px]'>Школьники 9 — 11 классов</h5>
+            <h1 className='font-bold text-[22px] max-w-[400px]'>Национальная олимпиада по анализу данных «DANO»</h1>
+            <p className='font-sans max-w-[450px]'>Возможность научиться применять анализ данных и получить преимущества для поступления в ВШЭ и вузы-организаторы</p>
+            <div className='mt-6'>
+              <BlueButton title='Узнать подробностии'/>
+            </div>
+          </div>
+
+          <div className='bg-white rounded-3xl shadow-xl p-8'>
+            <h5 className='text-gray text-[14px]'>Школьники 5 — 8 классов</h5>
+            <h1 className='font-bold text-[22px] max-w-[350px]'>Всероссийская олимпиада по информатике им.Келдыша</h1>
+            <p className='font-sans max-w-[450px]'>Шанс попасть в сборную России и участвовать в международных соревнованиях</p>
+            <div className='mt-12'>
+             <BlueButton title='Узнать подробностии'/>
+            </div>
+          </div>
+
+        </div>
+
+        <HeadText title="Профильный класс Т‑Банк" />
        
+        <div className='flex justify-center py-10'>
+          <div className='bg-white rounded-3xl shadow-3xl flex md:flex-row-reverse flex-col'>
+          <div className='mr-6'>
+            <h4 className='font-bold text-[22px] mt-4'>Т-класс в школах России</h4>
+            <p className='font-sans mt-4 max-w-[550px]'>Открываем классы с углубленным изучением программирования по всей стране</p>
+            <p className='font-sans mt-4'>— Поступить можно с 10-го класса</p>
+            <p className='font-sans mt-4'>— Преподаватели программирования — ведущие разработчики Т‑Банка</p>
+            <BlueButton title="Узнать плжробности" className="mt-8" />
+          </div>
+            <img src={simg6} className='object-cover w-[528px] h-[270px] md:mt-6'/>
+          </div>
+        </div>
+
+          <HeadText title="Партнерские программы Т‑Банка" />
+
+          <div className='flex justify-center'>
+            <div className='flex md:flex-row flex-col bg-white rounded-3xl shadow-xl'>
+            <div className='p-6'>
+              <h1 className="font-bold text-[34px]">Совместные проекты</h1>
+              <p className='font-sans max-w-[400px]'>Летние лагеря, школы, соревнования и олимпиады, которые мы поддерживаем и проводим совместно c партнерами</p>
+              <WhiteButton title="Узнать подробнее" />
+            </div>
+              <div>
+                <img src={simg7} className='w-[580px] h-[400px]'/>
+              </div>
+            </div>
+          </div>
+
+          <HeadText title="Часто задаваемые вопросы" />
 
     </div>
 
