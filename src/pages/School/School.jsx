@@ -367,23 +367,25 @@ const School = () => {
         </div>
       </div>
 
-        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 1 ? "block" : "hidden"}`}>
+        <div className={`flex flex-col justify-center items-center py-10 ${stabs === 1 ? "block" : "hidden"}`}>
           <div className='tab-animation'>
             <Explore />
           </div>
         </div>
 
-        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 2 ? "block" : "hidden"}`}>
+        <div className={`flex flex-col justify-center items-center py-10 ${stabs === 2 ? "block" : "hidden"}`}>
           <div className='tab-animation'>
             <Prep />
           </div>
         </div>
 
-        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 3 ? "block" : "hidden"}`}>
+        <div className={`flex flex-col justify-center items-center py-10   ${stabs === 3 ? "block" : "hidden"}`}>
           <div className='tab-animation'>
            <Compe />
           </div>
         </div>
+
+        <HeadText title="Олимпиады" />
        
 
     </div>
