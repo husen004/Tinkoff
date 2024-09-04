@@ -10,11 +10,20 @@ import schoolicon from '../../assets/icons/schoolicon.svg'
 import stabsp1 from '../../assets/icons/stabsp1.webp'
 import stabsp2 from '../../assets/icons/stabsp2.webp'
 import '../../index.css'
+import Explore from './Explore'
+import Prep from './Prep'
+import Compe from './Compe'
 import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
 
 
 const School = () => {
+
+  const [stabs, setstabs] = useState(1)
+
+  function secondHandleTab(i) {
+    setstabs(i)
+  }
   
   const [tabs, setTabs] = useState(1)
   
@@ -84,8 +93,7 @@ const School = () => {
         
 
       <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 1 ? "block" : "hidden"}`}>
-      <div className='animate-loop-scroll'>
-        
+      <div className='tab-animation'>
           
           <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
 
@@ -174,6 +182,7 @@ const School = () => {
 
       
       <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 2 ? "block" : "hidden"}`}>
+      <div className='tab-animation'>
 
           <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
 
@@ -340,9 +349,41 @@ const School = () => {
           </div>
 
       </div>
+      </div>
 
       <HeadText title="Мероприятия" />
 
+      <div className='flex justify-center py-6'>
+        <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(1)}>
+             <button className='my-4'>Экскурсии</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(2)}>
+             <button className='my-4' >Подготовка к олимпиадам</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4' >Соревнование</button>
+          </div>
+        </div>
+      </div>
+
+        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 1 ? "block" : "hidden"}`}>
+          <div className='tab-animation'>
+            <Explore />
+          </div>
+        </div>
+
+        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 2 ? "block" : "hidden"}`}>
+          <div className='tab-animation'>
+            <Prep />
+          </div>
+        </div>
+
+        <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${stabs === 3 ? "block" : "hidden"}`}>
+          <div className='tab-animation'>
+           <Compe />
+          </div>
+        </div>
        
 
     </div>
