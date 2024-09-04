@@ -449,16 +449,16 @@ const School = () => {
 
           <HeadText title="Партнерские программы Т‑Банка" />
 
-          <div className='flex justify-center'>
-            <div className='flex md:flex-row flex-col bg-white rounded-3xl shadow-xl'>
-            <div className='p-6'>
+          <div className='flex justify-center py-10'>
+            <div className='flex md:flex-row flex-col rounded-3xl shadow-xl bg-darkgrey transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer'>
+            <div className='ml-12 mt-12'>
               <h1 className="font-bold text-[34px]">Совместные проекты</h1>
-              <p className='font-sans max-w-[400px]'>Летние лагеря, школы, соревнования и олимпиады, которые мы поддерживаем и проводим совместно c партнерами</p>
-              <WhiteButton title="Узнать подробнее" />
+              <p className='font-sans max-w-[400px] mt-2'>Летние лагеря, школы, соревнования и олимпиады, которые мы поддерживаем и проводим совместно c партнерами</p>
+              <WhiteButton title="Узнать подробнее" className="mt-[100px]" />
             </div>
-              <div>
-                <img src={simg7} className='w-[580px] h-[400px]'/>
-              </div>
+             <div>
+              <img src={simg7} className='object-cover w-[580px] h-[400px]'/>
+            </div>
             </div>
           </div>
 
