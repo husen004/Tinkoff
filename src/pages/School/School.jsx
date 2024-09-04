@@ -9,12 +9,14 @@ import headschool from '../../assets/images/headschool.webp'
 import schoolicon from '../../assets/icons/schoolicon.svg'
 import stabsp1 from '../../assets/icons/stabsp1.webp'
 import stabsp2 from '../../assets/icons/stabsp2.webp'
+import sgrayp from '../../assets/images/sgrayp.webp'
 import '../../index.css'
 import Explore from './Explore'
 import Prep from './Prep'
 import Compe from './Compe'
 import { courseSchool } from '../../constants'
 import { sicon } from '../../constants'
+import GrayButton from '../../components/GrayButton'
 
 
 const School = () => {
@@ -386,6 +388,23 @@ const School = () => {
         </div>
 
         <HeadText title="Олимпиады" />
+
+        <div className='flex justify-center my-12'>
+        <div className='flex flex-col md:flex-row-reverse bg-darkgray rounded-3xl shadow-xl '>
+          
+          <div className='h-full flex flex-col justify-start mt-6 mx-6'>
+            <h4 className='font-bold text-[22px] text-white'>Олимпиада по промышленной разработке «PROD»</h4>
+            <p className='font-sans text-white'>Состязание с практикой по программированию для школьников 9-11 классов</p>
+            <p className='font-sans mt-6 max-w-[600px] text-white'>Победители получат допбаллы и другие преимущества при поступлении в НИУ ВШЭ или Центральный университет</p>
+            <div className='mt-8'>
+              <GrayButton title="Узнать подробнее" />
+            </div>
+          </div>
+
+          <img src={sgrayp} alt='sgrayp' className='w-[421px] h-[248px]' />
+          
+        </div>
+        </div>
        
 
     </div>

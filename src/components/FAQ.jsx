@@ -12,7 +12,9 @@ const FAQ = () => {
         title="Do you prefer writing CSS or Tailwind?"
         answer="I like to use Tailwind"
       />
-      <Accordion title="Firebase or Supabase?" answer="I am using Supabase!" />
+      <Accordion 
+      title="Firebase or Supabase?" 
+      answer="I am using Supabase!" />
     </div>
   );
 };
