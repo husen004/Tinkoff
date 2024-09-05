@@ -28,3 +28,17 @@ body {
     opacity: 1;
   }
 }
+
+.tab-FAQ {
+  animation-duration: 0.8s;
+  animation-name: toggle;
+  animation-timing-function: ease-in-out;
+}
+@keyframes toggle{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: auto;
+  }
+}

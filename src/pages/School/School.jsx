@@ -21,6 +21,7 @@ import { sicon } from '../../constants'
 import GrayButton from '../../components/GrayButton'
 import BlueButton from '../../components/BlueButton'
 import WhiteButton from '../../components/WhiteButton'
+import FAQ from './FAQ'
 
 
 const School = () => {
@@ -463,6 +464,10 @@ const School = () => {
           </div>
 
           <HeadText title="Часто задаваемые вопросы" />
+
+          <div>
+            <FAQ />
+          </div>
 
     </div>
 

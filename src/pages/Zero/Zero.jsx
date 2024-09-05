@@ -15,10 +15,13 @@ import zeroimg2 from '../../assets/images/zeroimg2.webp'
 
 const Zero = () => {
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(null)
 
-  function handleOpen()  {
-    setOpen(!open);
+  function handleOpen(i)  {
+    if (open === i) {
+      setOpen(null)
+    } else setOpen(i)
+
   }
 
 
@@ -98,16 +101,16 @@ const Zero = () => {
 
       <div className='flex justify-center my-10 mx-2'>
         <div className='flex flex-col justify-evenly bg-white rounded-3xl my-6 px-12'>
-          {FAQzero.map((f, index) => (
-            <div className='w-full border-b border-gray-300 cursor-pointer my-6 mx-6 hover:opacity-60'  onClick={handleOpen} key={index}>
-              <div className='flex flex-row justify-between transition ease-in hover:opacity-70'>
-              <h4 className='font-bold md:text-[23px] text-[14px] transition ease-in hover:opacity-60 '>{f.title}</h4>
-              <div className={`cursor-pointer pr-8 transform origin-center transition duration-200 ease-out`}>
-                {open ? <Icon icon={arrow_up} size={28} /> : <Icon icon={arrow_down} size={28} />}
-              </div>
-              </div>
-              <div className={`grid overflow-hidden transition-all duration-700 ease-in-out ${open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
-                <p className='flex mb-4 overflow-hidden font-sans mt-1 max-w-[930px]'>{f.para}</p>
+          {FAQzero.map((f, i) => (
+            <div className='w-full border-b border-gray-300 cursor-pointer my-6 mx-6' key={i} >
+                <div className='flex flex-row justify-between transition ease-in hover:opacity-60' onClick={() => handleOpen(i)}>
+                <h4 className='font-bold md:text-[23px] text-[14px] transition ease-in hover:opacity-60 '>{f.title}</h4>
+                <div className={`pr-8`}>
+                  {open === i ? <Icon icon={arrow_up} size={28} /> : <Icon icon={arrow_down} size={28} />}
+                </div>
+                </div>
+              <div className={`grid overflow-hidden transition-all duration-300 ease-in-out  ${open === i ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
+                  <p className={`overflow-hidden mb-4 font-sans mt-1 max-w-[930px] transition ease-in-out duration-1000 `}>{f.para}</p>
               </div>
             </div>
           ))}
@@ -116,6 +119,7 @@ const Zero = () => {
 
       
       <HeadText title="ИТ-курсы для начинающих специалистов" />
+
       <div className='flex justify-center my-4'>
         <p className='font-sans'>Если не нашли здесь подходящий для вашего уровня курс, посмотрите, что еще у нас есть</p>
       </div>
