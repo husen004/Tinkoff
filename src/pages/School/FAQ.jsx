@@ -20,8 +20,8 @@ const FAQ = () => {
       <div className='flex justify-center my-10 mx-2'>
         <div className='flex flex-col justify-evenly bg-white rounded-3xl px-12'>
           {schoolFAQ.map((s, i) => (
-            <div className='w-full border-b border-gray-300 cursor-pointer my-4  mx-6' key={i} >
-                <div className='flex flex-row justify-between transition ease-in hover:opacity-60' onClick={() => handleOpen(i)}>
+            <div className='w-full border-b border-gray-300 cursor-pointer my-4  mx-6' onClick={() => handleOpen(i)} key={i} >
+                <div className='flex flex-row justify-between transition ease-in hover:opacity-60'>
                 <h4 className='font-bold md:text-[23px] text-[14px] transition ease-in hover:opacity-60 '>{s.title}</h4>
                 <div className={`pr-8`}>
                   {open === i ? <Icon icon={arrow_up} size={28} /> : <Icon icon={arrow_down} size={28} />}

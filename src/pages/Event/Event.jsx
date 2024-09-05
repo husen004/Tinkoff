@@ -2,6 +2,7 @@ import React from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
 import headevent from '../../assets/images/headevent.webp'
+import Panels from './Panels'
 
 const Event = () => {
   return (
@@ -22,6 +23,8 @@ const Event = () => {
       <div className='flex justify-center items-center my-4'>
         <img src={headevent} alt='event' className='object-cover w-[80%]'/>
       </div>  
+
+      <Panels />
 
     </div>
   )
