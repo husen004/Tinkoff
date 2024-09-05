@@ -22,14 +22,14 @@ function handleToggle() {
       </div>
       <div className=''>
       <ul className='md:gap-4 gap-2 md:flex hidden text-xs text-gray-500'>
-          <li><Link to='/zero' className='transition ease-in hover:text-gray-700'>С нуля</Link></li>
-          <li><Link to='/school' className='transition ease-in hover:text-gray-700'>Школьникам</Link></li>
-          <li><Link to='/course' className='transition ease-in hover:text-gray-700'>Финтех курсы</Link></li>
-          <li><Link to='/intern' className='transition ease-in hover:text-gray-700'>Стажировка</Link></li>
-          <li><Link to='/uni' className='transition ease-in hover:text-gray-700'>Проекты в вузых</Link></li>
-          <li><Link to='/poko' className='transition ease-in hover:text-gray-700'>Вклад в поколение</Link></li>
-          <li><Link to='/event' className='transition ease-in hover:text-gray-700'>Мероприятние</Link></li>
-          <li><Link to='/career' className='transition ease-in hover:text-gray-700'>Карьера</Link></li>
+          <li><Link to='/zero' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>С нуля</Link></li>
+          <li><Link to='/school' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Школьникам</Link></li>
+          <li><Link to='/course' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Финтех курсы</Link></li>
+          <li><Link to='/intern' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Стажировка</Link></li>
+          <li><Link to='/uni' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Проекты в вузых</Link></li>
+          <li><Link to='/poko' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Вклад в поколение</Link></li>
+          <li><Link to='/event' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Мероприятние</Link></li>
+          <li><Link to='/career' className='transition ease-in-out duration-300 hover:text-gray-700 focus:text-yellow-400'>Карьера</Link></li>
         </ul>
       </div>
       <div className='md:flex hidden'>
