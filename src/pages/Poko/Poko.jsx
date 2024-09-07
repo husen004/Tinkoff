@@ -6,6 +6,9 @@ import headpoko from '../../assets/images/headpoko.webp'
 import pokop1 from '../../assets/images/pokop1.avif'
 import Para from '../../components/Para'
 import Give from './Give'
+import icon2 from '../../assets/icons/icon2.svg'
+import icon3 from '../../assets/icons/icon3.svg'
+import icon4 from '../../assets/icons/icon4.svg'
 
 const Poko = () => {
   return (
@@ -77,6 +80,42 @@ const Poko = () => {
       <HeadText title="Какие требования к кандидатам" />
       <Para className="py-4 text-center" title="Ждем вас, если вы преподаете один из трех предметов в школе или организации дополнительного образования" />
 
+      <div className='flex flex-wrap justify-center gap-14 py-10' id='cann'>
+
+        <div className='flex flex-col justify-center gap-10'>
+          <div className='flex flex-row items-center gap-4'>
+            <img src={icon4} className='w-[] h-[] bg-white rounded-3xl shadow-lg' />
+            <h1 className='font-bold text-[22px] max-w-[200px]'>Вы — учитель математики </h1>
+          </div>
+          <div className='bg-white rounded-3xl pl-6 pt-6 h-[400px]'>
+            <h1 className='font-bold text-[20px] max-w-[250px]'>Работаете со старшеклассниками</h1>
+            <p className='fonst-sans max-w-[250px] mt-6'>Грант могут получить учителя математики, информатики или физики 9—11-х классов из любой школы России или организации дополнительного образования</p>
+          </div>
+        </div>
+
+        <div className='flex flex-col justify-center gap-10'>
+          <div className='flex flex-row items-center gap-4'>
+            <img src={icon2} className='w-[] h-[] bg-white rounded-3xl shadow-lg' />
+            <h1 className='font-bold text-[22px] max-w-[220px]'>Вы — учитель информатики</h1>
+          </div>
+          <div className='bg-white rounded-3xl pl-6 pt-6 h-[400px]'>
+            <h1 className='font-bold text-[20px] max-w-[250px]'>Есть опыт преподавания</h1>
+            <p className='fonst-sans max-w-[250px] mt-6'>Нужно иметь официальный педагогический стаж от года. При этом учебная нагрузка должна быть не менее 9 часов в неделю по одному из предметов: «математика», «информатика» или «физика», из которых в старших классах не менее 1 часа</p>
+          </div>
+        </div>
+
+        <div className='flex flex-col justify-center gap-10'>
+          <div className='flex flex-row items-center gap-4'>
+            <img src={icon3} className='w-[] h-[] bg-white rounded-3xl shadow-lg' />
+            <h1 className='font-bold text-[22px] max-w-[200px]'>Вы — учитель физики</h1>
+          </div>
+          <div className='bg-white rounded-3xl pl-6 pt-6 h-[400px]'>
+            <h1 className='font-bold text-[20px] max-w-[250px]'>Готовы проводить мероприятия по материалам Т‑Образования</h1>
+            <p className='fonst-sans max-w-[250px] mt-6'>В случае победы в конкурсе мы предложим вам провести несколько активностей осенью 2024 года. Например, экскурсию для учеников в один из ИТ-хабов Т‑Банка, математическую игру или лекцию по информатике</p>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   )
