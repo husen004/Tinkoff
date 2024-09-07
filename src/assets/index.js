@@ -17,7 +17,18 @@ import sicon1 from './icons/sicon1.svg'
 import sicon2 from './icons/sicon2.svg'
 import sicon3 from './icons/sicon3.svg'
 import sicon4 from './icons/sicon4.svg'
+import people1 from './images/people1.png'
+import people2 from './images/people2.png'
+import people3 from './images/people3.png'
+import people4 from './images/people4.png'
+import people5 from './images/people5.png'
+import people6 from './images/people6.png'
+import people7 from './images/people7.png'
+import people8 from './images/people8.png'
+import people9 from './images/people9.png'
+import people10 from './images/people10.png'
 
 
 
-export { sicon1, sicon2, sicon3, sicon4, zeroicon3, zeroicon2, zeroicon1, icon1, icon2, icon3, icon4, icon5, icon6, forschool1, forschool2, forschool3, careericon1, careericon2, careericon3 };
+
+export { people1, people2, people3, people4, people5, people6, people7, people8, people9, people10, sicon1, sicon2, sicon3, sicon4, zeroicon3, zeroicon2, zeroicon1, icon1, icon2, icon3, icon4, icon5, icon6, forschool1, forschool2, forschool3, careericon1, careericon2, careericon3 };

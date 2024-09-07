@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from 'react-icons-kit'
 import {arrow_up} from 'react-icons-kit/ikons/arrow_up'
+import { jury } from '../../constants'
 import HeadText from '../../components/HeadText'
 import headpoko from '../../assets/images/headpoko.webp'
 import pokop1 from '../../assets/images/pokop1.avif'
@@ -14,6 +15,7 @@ import Button from '../../components/Button'
 import Otbor from './Otbor'
 import BlueButton from '../../components/BlueButton'
 import pokop3 from '../../assets/images/pokop3.webp'
+
 
 const Poko = () => {
   return (
@@ -145,6 +147,19 @@ const Poko = () => {
       </div>
 
       <HeadText className="py-6" title="Экспертное жюри" />
+
+      <div>
+        {jury.map((j, i) => (
+          <div key={i}>
+            <div>
+              <h4>{j.name}</h4>
+              <p className=''>{j.role}</p>
+            </div>
+            <img src={j.img} className='w-[64px] h-[64px]' />
+            <p className='max-w-[550px]'>{j.para}</p>
+          </div>
+        ))}
+      </div>
 
 
     </div>
