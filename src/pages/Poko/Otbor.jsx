@@ -1,5 +1,4 @@
 import React from 'react'
-import { PokoOtbo } from '../../constants'
 
 const Otbor = () => {
   return (

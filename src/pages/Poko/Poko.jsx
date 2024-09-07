@@ -11,8 +11,9 @@ import icon2 from '../../assets/icons/icon2.svg'
 import icon3 from '../../assets/icons/icon3.svg'
 import icon4 from '../../assets/icons/icon4.svg'
 import Button from '../../components/Button'
-import { PokoOtbo } from '../../constants'
 import Otbor from './Otbor'
+import BlueButton from '../../components/BlueButton'
+import pokop3 from '../../assets/images/pokop3.webp'
 
 const Poko = () => {
   return (
@@ -123,15 +124,28 @@ const Poko = () => {
 
       </div>
 
-        <Button title="Подать заявку" />
+      <Button title="Подать заявку" />
 
-        <div className='lg:block hidden'>
-          
-        <HeadText title="Этапы отбора и календарь проекта" />
-        <Para title="Обратите внимание, что получить грант смогут участники, которые официально работают в школе или организации дополнительного образования на момент 1 сентября 2024 года" />
-        <Otbor />
+      <div className='lg:block hidden'>
+      <HeadText title="Этапы отбора и календарь проекта" />
+      <Para title="Обратите внимание, что получить грант смогут участники, которые официально работают в школе или организации дополнительного образования на момент 1 сентября 2024 года" />
+      <Otbor />
+      <BlueButton title="Положение в конкурсе" />
+      </div>
 
+      <div className='flex justify-center py-10 px-2'>
+        <div className='bg-darkgrey rounded-3xl shadow-xl flex md:flex-row flex-col'>
+        <div className='flex items-start flex-col pt-6 pl-6'>
+          <h4 className='font-bold text-[20px] '>Разбор отборочных испытаний</h4>
+          <p className='max-w-[500px] mt-6'>Подробно описали решения и критерии оценки отборочного этапа по математике конкурса 2023 года <br/> <br/>Обратите внимание, что в 2024 году вид предметного тестирования зависит от дисциплины, которую вы преподаете </p>
+          <BlueButton className="mt-8" title="Посмотреть разбор" />
         </div>
+        <img src={pokop3} className='w-[528px] h-[260px] mt-8'/>
+        </div>
+      </div>
+
+      <HeadText className="py-6" title="Экспертное жюри" />
+
 
     </div>
   )
