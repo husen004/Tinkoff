@@ -11,6 +11,8 @@ import icon2 from '../../assets/icons/icon2.svg'
 import icon3 from '../../assets/icons/icon3.svg'
 import icon4 from '../../assets/icons/icon4.svg'
 import Button from '../../components/Button'
+import { PokoOtbo } from '../../constants'
+import Otbor from './Otbor'
 
 const Poko = () => {
   return (
@@ -123,9 +125,13 @@ const Poko = () => {
 
         <Button title="Подать заявку" />
 
+        <div className='lg:block hidden'>
+          
         <HeadText title="Этапы отбора и календарь проекта" />
         <Para title="Обратите внимание, что получить грант смогут участники, которые официально работают в школе или организации дополнительного образования на момент 1 сентября 2024 года" />
+        <Otbor />
 
+        </div>
 
     </div>
   )
