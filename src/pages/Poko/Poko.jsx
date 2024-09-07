@@ -6,9 +6,11 @@ import headpoko from '../../assets/images/headpoko.webp'
 import pokop1 from '../../assets/images/pokop1.avif'
 import Para from '../../components/Para'
 import Give from './Give'
+import pokop2 from '../../assets/images/pokop2.webp';
 import icon2 from '../../assets/icons/icon2.svg'
 import icon3 from '../../assets/icons/icon3.svg'
 import icon4 from '../../assets/icons/icon4.svg'
+import Button from '../../components/Button'
 
 const Poko = () => {
   return (
@@ -115,7 +117,15 @@ const Poko = () => {
           </div>
         </div>
 
+        <img src={pokop2} className='object-cover w-[1104px]' />
+
       </div>
+
+        <Button title="Подать заявку" />
+
+        <HeadText title="Этапы отбора и календарь проекта" />
+        <Para title="Обратите внимание, что получить грант смогут участники, которые официально работают в школе или организации дополнительного образования на момент 1 сентября 2024 года" />
+
 
     </div>
   )

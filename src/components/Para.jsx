@@ -2,8 +2,8 @@ import React from 'react'
 
 const Para = ({ title, className }) => {
   return (
-    <div className='flex justify-center'>
-        <p className={`${className} font-sans`}>{title}</p>
+    <div className='flex justify-center text-center my-4'>
+        <p className={`${className} font-sans max-w-[880px]`}>{title}</p>
     </div>
   )
 }
