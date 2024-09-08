@@ -57,31 +57,32 @@ const Poko = () => {
 
       <div className='flex justify-center flex-row flex-wrap pb-20'>
         <div className='grid md:grid-cols-2 grid-cols-1 gap-6'>
+
           <a href='#give'>
-          <div className='cursor-pointer bg-white rounded-3xl shadow-lg p-4 flex flex-row'>
+          <div className='w-full justify-between cursor-pointer bg-white rounded-3xl shadow-lg p-4 flex flex-row'>
            <p className='font-sans p-4'>Что вы получите</p>
-           <Icon icon={arrow_up} size={40} className='rotate-90 ml-[300px]' />
+           <Icon icon={arrow_up} size={40} className='rotate-90' />
           </div>
           </a>
 
         <a href='#otbo'>
-        <div className='cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
+        <div className='w-full justify-between cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
           <p className='font-sans p-4'>Этапы отбора и календарь проекта</p>
-          <Icon icon={arrow_up} size={40} className='rotate-90 ml-[155px]' />
+          <Icon icon={arrow_up} size={40} className='rotate-90' />
         </div>
         </a>
 
         <a href='#cann'>
-        <div className='cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
+        <div className='w-full justify-between cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
           <p className='font-sans p-4'>Требование к кандидатам</p>
-          <Icon icon={arrow_up} size={40} className='rotate-90 ml-[230px]' />
+          <Icon icon={arrow_up} size={40} className='rotate-90 ' />
         </div>
         </a>
 
         <a href='#ques'>
-        <div className='cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
+        <div className='w-full justify-between cursor-pointer bg-white rounded-3xl shadow-lg p-4  flex flex-row'>
           <p className='font-sans p-4'>Вопросы и ответы</p>
-          <Icon icon={arrow_up} size={40} className='rotate-90 ml-[280px]' />
+          <Icon icon={arrow_up} size={40} className='rotate-90' />
         </div>
         </a>
 
@@ -154,7 +155,7 @@ const Poko = () => {
         </div>
       </div>
 
-      <div className='hidden lg:block'>
+      <div className='hidden lg:block' id='otbo'>
       <HeadText className="py-6" title="Экспертное жюри" />
 
       <Jury />
@@ -201,7 +202,9 @@ const Poko = () => {
 
       <HeadText title="Часто задаваемые вопросы" />
 
+      <div className='my-10' id='ques'>
       <PokoFAQ />
+      </div>
 
     </div>
   )
