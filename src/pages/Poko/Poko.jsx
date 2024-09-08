@@ -8,7 +8,6 @@ import 'swiper/css/scrollbar';
 import 'swiper/css';
 import { Icon } from 'react-icons-kit'
 import {arrow_up} from 'react-icons-kit/ikons/arrow_up'
-import { jury } from '../../constants'
 import HeadText from '../../components/HeadText'
 import headpoko from '../../assets/images/headpoko.webp'
 import pokop1 from '../../assets/images/pokop1.avif'
@@ -22,6 +21,8 @@ import Button from '../../components/Button'
 import Otbor from './Otbor'
 import BlueButton from '../../components/BlueButton'
 import pokop3 from '../../assets/images/pokop3.webp'
+import Jury from './Jury';
+import PokoFAQ from './PokoFAQ';
 
 
 const Poko = () => {
@@ -142,7 +143,7 @@ const Poko = () => {
       <BlueButton title="Положение в конкурсе" />
       </div>
 
-      <div className='flex justify-center py-10 px-2'>
+      <div className='flex justify-center py-10 px-6'>
         <div className='bg-darkgrey rounded-3xl shadow-xl flex md:flex-row flex-col'>
         <div className='flex items-start flex-col pt-6 pl-6'>
           <h4 className='font-bold text-[20px] '>Разбор отборочных испытаний</h4>
@@ -153,43 +154,54 @@ const Poko = () => {
         </div>
       </div>
 
+      <div className='hidden lg:block'>
       <HeadText className="py-6" title="Экспертное жюри" />
 
-      <div className=''>
-      <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={20}
-      slidesPerView={2}
-      navigation
-      pagination={{ clickable: true }}
-      a11y={{
-        enabled: true,
-        navigateWithArrowKeys: true,
-      }}
-      >
-      <div className='flex justify-center items-center flex-col gap-10 '>
-        {jury.map((j, i) => (
-      <SwiperSlide>
-          <div className='flex flex-col justify-center rounded-3xl bg-white shadow-xl p-10 h-[400px]' key={i}>
-            <div className='flex flex-row justify-between'>
-              <div className='flex flex-col'>
-                <h4 className='font-bold text-[20px]'>{j.name}</h4>
-                <p className='font-sans text-[14px]'>{j.role}</p>
-              </div>
-              <div className='flex justify-end'>
-               <img src={j.img} className='w-[64px] h-[64px] border-none rounded-3xl border-white' />
-              </div>
+      <Jury />
+      </div>
+
+      <HeadText title="Как стать участником" />
+      <Para title="Принимаем заявки до 3 июля 2024 года" />
+
+      <div className='flex justify-center my-10'>
+        <div className='flex flex-col gap-6'>
+          <div className='flex flex-col md:flex-row items-center gap-10 '>
+            <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>1</span>
+            <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6 text-center'>
+            <h4 className='font-semibold text-[20px]'>Оставьте заявку в форме ниже</h4>
+            <p className='fons-sans text-[16] mt-4'>Заполните все поля формы до 3 июля включительно</p>
             </div>
-            <p className='max-w-[500px] my-10 '>{j.para}</p>
           </div>
-      </SwiperSlide>
-        ))}
-      </div>
-      </Swiper>
+
+          <div className='flex flex-col md:flex-row items-center gap-10 text-center'>
+            <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>2</span>
+            <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6 '>
+            <h4 className='font-semibold text-[20px]'>Зарегистрируйтесь <span className='cursor-pointer text-blue-400'>на сайте Т‑Образования</span> и заполните анкету </h4>
+            <p className='fons-sans text-[16] mt-4'>С 1 апреля по 3 июля включительно</p>
+            </div>
+          </div>
+
+          <div className='flex flex-col md:flex-row items-center gap-10 text-center'>
+            <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>3</span>
+            <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6 '>
+            <h4 className='font-semibold text-[20px]'>Пройдите все отборочные испытания</h4>
+            <p className='fons-sans text-[16] mt-4'>С 25 июня по 25 сентября включительно</p>
+            </div>
+          </div>
+
+          <div className='flex flex-col md:flex-row items-center gap-10 text-center'>
+            <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>4</span>
+            <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6'>
+            <h4 className='font-semibold text-[20px]'>Ознакомьтесь с результатами</h4>
+            <p className='fons-sans text-[16] mt-4'>Список победителей опубликуем на сайте не позднее 10 октября</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-    <HeadText title="Как стать участником" />
+      <HeadText title="Часто задаваемые вопросы" />
 
+      <PokoFAQ />
 
     </div>
   )
