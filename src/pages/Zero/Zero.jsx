@@ -48,7 +48,7 @@ const Zero = () => {
       <HeadText title="ИТ-курсы от Т‑Образования" />
       <p className='font-sans my-4 text-center'>Для всех желающих. Ждем учеников любого возраста</p>
 
-      <div className='flex justify-center gap-10'>
+      <div className='flex flex-wrap justify-center gap-10'>
         {zerocard.map((z, index) => (
           <div className='bg-white rounded-3xl gap-4 shadow-lg mt-10' key={index}>
             <img src={z.icon}  className='object-cover mt-10 mx-6'/>
@@ -120,7 +120,7 @@ const Zero = () => {
       
       <HeadText title="ИТ-курсы для начинающих специалистов" />
 
-      <div className='flex justify-center my-4'>
+      <div className='flex justify-center text-center my-4'>
         <p className='font-sans'>Если не нашли здесь подходящий для вашего уровня курс, посмотрите, что еще у нас есть</p>
       </div>
 

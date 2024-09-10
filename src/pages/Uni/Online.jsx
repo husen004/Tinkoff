@@ -35,7 +35,7 @@ const Online = () => {
 
               </div>
 
-              <div className='mt-8'>
+              <div className='mt-4'>
                 <Button title="Узнать подробнее" />
               </div>
 
