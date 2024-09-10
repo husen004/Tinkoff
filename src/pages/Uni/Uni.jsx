@@ -4,6 +4,10 @@ import Button from '../../components/Button'
 import headuni from '../../assets/images/headuni.webp'
 import { unicon } from '../../constants'
 import BlueButton from '../../components/BlueButton'
+import Lab from './Lab'
+import Online from './Online'
+import Schoollar from './Schoolar'
+import Proguni from './Proguni'
 
 const Uni = () => {
 
@@ -50,7 +54,7 @@ const Uni = () => {
       <HeadText title="Для студентов" />
       
       
-      <div className='flex justify-center flex-row gap-6 border-b-[1px] border-gray-300 py-6'>
+      <div className='flex justify-center items-center flex-row gap-6 border-b-[1px] border-gray-300'>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(1)}>
              <button className='my-4'>Онлайн-программы</button>
           </div>
@@ -65,6 +69,21 @@ const Uni = () => {
           </div>
       </div>
 
+      <div className={`my-12 ${tab === 1 ? "block" : "hidden"}`}>
+        <Online />
+      </div>
+
+      <div className={`my-12 ${tab === 2 ? "block" : "hidden"}`}>
+        <Proguni />
+      </div>
+
+      <div className={`my-12 ${tab === 3 ? "block" : "hidden"}`}>
+        <Lab />
+      </div>
+
+      <div className={`my-12 ${tab === 4 ? "block" : "hidden"}`}>
+        <Schoollar />
+      </div>
 
 
     </div>
