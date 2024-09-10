@@ -17,7 +17,9 @@ const Panels = () => {
                 <li className='font-sans my-4'>— Поговорим о профессиях в Т‑Банке</li>
                 <li className='font-sans my-4'>— Ответим на вопросы в неформальной обстановке</li>
             </ul>
+            <div className='flex justify-start'>
             <BlueButton className="mt-8 mb-6" title="Подробнее" />
+            </div>
         </div>
 
         <img src={eventp3} className='w-[528px] h-[360px]' />
@@ -34,7 +36,9 @@ const Panels = () => {
                 <li className='font-sans my-4'>— Саммиты и форумы</li>
                 <li className='font-sans my-4'>— Офлайн и онлайн: можно учиться в «Сириусе» или дистанционно</li>
             </ul>
+            <div className='flex justify-start'>
             <BlueButton className="mt-8 mb-6" title="Подробнее" />
+            </div>
         </div>
 
         <img src={eventp4} className='w-[528px] h-[360px]' />
@@ -51,7 +55,9 @@ const Panels = () => {
                 <li className='font-sans my-4'>— Форумы: молодежные дни финтех-форума «Финополис»</li>
                 <li className='font-sans my-4'>— Олимпиады: командные и индивидуальные соревнования</li>
             </ul>
+            <div className='flex justify-start'>
             <BlueButton className="mt-8 mb-6" title="Подробнее" />
+            </div>
         </div>
 
         <img src={eventp5} className='w-[528px] h-[360px] mx-4' />
