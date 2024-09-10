@@ -10,7 +10,7 @@ const Uni = () => {
   const [tab, setTab] = useState(1)
 
   function handleTab(i) {
-    setToggle(i)
+    setTab(i)
   }
 
   return (
@@ -48,8 +48,21 @@ const Uni = () => {
       <BlueButton className="my-8 mb-10 border-[1px] border-gray-400" title="Узнать подробнее" />
 
       <HeadText title="Для студентов" />
-      <div className=''>
-
+      
+      
+      <div className='flex justify-center flex-row gap-6 border-b-[1px] border-gray-300 py-6'>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(1)}>
+             <button className='my-4'>Онлайн-программы</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(2)}>
+             <button className='my-4' >Программы в вузах</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(3)}>
+             <button className='my-4'>Лабаратория</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(4)}>
+             <button className='my-4'>Стипендия</button>
+          </div>
       </div>
 
 
