@@ -135,7 +135,9 @@ const Poko = () => {
 
       </div>
 
+      <div  className='flex justify-center'>
       <Button title="Подать заявку" />
+      </div>
 
       <div className='lg:block hidden'>
       <HeadText title="Этапы отбора и календарь проекта" />
