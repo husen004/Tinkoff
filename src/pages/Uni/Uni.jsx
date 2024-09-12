@@ -8,6 +8,9 @@ import Lab from './Lab'
 import Online from './Online'
 import Schoollar from './Schoolar'
 import Proguni from './Proguni'
+import DarkBlueButton from '../../components/DarkBlueButton'
+import unip7 from '../../assets/images/unip7.webp'
+import UniFAQ from './UniFaq'
 
 const Uni = () => {
 
@@ -83,6 +86,30 @@ const Uni = () => {
 
       <div className={`my-12 ${tab === 4 ? "block" : "hidden"}`}>
         <Schoollar />
+      </div>
+
+      <HeadText title="Для вузов-партнеров" />
+
+      <div className='flex justify-center items-center py-10 mx-8'>
+        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
+          <div className='flex flex-col justify-center  max-w-[550px] mx-8'>
+            <h4 className='font-bold text-[23px] mt-8'>Форматы сотрудничества</h4>
+            <ul className='mt-2 max-w-[1000px]'>
+              <li className='my-2 font-sans'>- Поучаствуем в ярмарке вакансий, прочитаем лекцию, проведем олимпиаду или спецкурс</li>
+              <li className='my-2 font-sans'>- Работаем с техническими вузами по всей России</li>
+            </ul>
+            <DarkBlueButton title="Узнать больше" />
+          </div>
+          <div className='w-full flex justify-center items-center'>
+            <img src={unip7} alt='unip7' className='w-[528px] h-[260px] object-cover' />
+          </div>
+        </div>
+      </div>
+
+      <HeadText title="Часто задаваемые вопросы" />
+
+      <div className='flex justify-center items-center'>
+        <UniFAQ />
       </div>
 
 
