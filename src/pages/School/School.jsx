@@ -102,18 +102,18 @@ const School = () => {
       <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 1 ? "block" : "hidden"}`}>
       <div className='tab-animation'>
           
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6'>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2 mt-4'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
                 <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 5 - 11 классов</p>
               </div>
               <h4 className='font-bold text-[22px] mt-12'>Алгоритмы и структура данных</h4>
               <p className='font-sans text-[14px] text-gray-600 mt-2'>Подготовим к олимпиадам по информатике и программированию</p>
               
-              <div className='flex flex-row gap-16 mt-8 mr-8'>
+              <div className='flex flex-row gap-4 mt-8 mr-8'>
                 <div className=''>
                   <h4 className='font-bold text-[16px]'>Очно и онлайн</h4>
                   <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие раз в неделю с 16:00 до 21:00</p>
@@ -143,20 +143,20 @@ const School = () => {
 
           </div>
 
-          <div className='flex flex-col md:flex-row bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2 cursor-pointer'>
+          <div className='flex flex-col md:flex-row bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4 cursor-pointer'>
 
             <div className='ml-6 mt-4'>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
                 <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 7 - 11 классов</p>
               </div>
               <h4 className='font-bold text-[22px] mt-12'>Олимпиадная математика</h4>
               <p className='font-sans text-[14px] text-gray-600 mt-2'>Научим решать математические задачи на любые темы</p>
               
-              <div className='flex flex-row gap-16 mt-8 mr-8'>
+              <div className='flex flex-row gap-4 mt-8 ьч-4'>
                 <div className=''>
-                  <h4 className='font-bold text-[16px]'>олимпиадамнлайн</h4>
+                  <h4 className='font-bold text-[16px]'>Олемпиада онлайн</h4>
                   <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>занятие два раза в неделю 2-3 часа </p>
                 </div>
 
@@ -191,21 +191,21 @@ const School = () => {
       <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 2 ? "block" : "hidden"}`}>
       <div className='tab-animation'>
 
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+          <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6'>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2 mt-4'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
-                <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 7 - 11 классов</p>
+                <p className='font-sans text-[14px] text-gray-800 ml-2'>Все желающие</p>
               </div>
-              <h4 className='font-bold text-[22px] mt-12'>Информатика решает</h4>
-              <p className='font-sans text-[14px] text-gray-600 mt-2'>Курс для тех, кто хочет познакомиться с олимпиадным программированием на Python</p>
+              <h4 className='font-bold text-[22px] mt-12'>Анализ данных</h4>
+              <p className='font-sans text-[14px] text-gray-600 mt-2'>Базовай курс по анализу данных</p>
               
               <div className='flex flex-row gap-16 mt-8 mr-8'>
                 <div className=''>
                   <h4 className='font-bold text-[16px]'>Онлайн</h4>
-                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>Короткие лекции и практические задачи</p>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>Видеоуроки тесты, домашние задание </p>
                 </div>
 
                 <div className=''>
@@ -215,7 +215,7 @@ const School = () => {
 
                 <div className=''>
                   <h4 className='font-bold text-[16px]'>Сертификат</h4>
-                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>После курсов выдаём сертификаты</p>
+                  <p className='font-sans text-[14px] text-gray-600 max-w-[155px]'>После обучение выдаем сертификаты</p>
                 </div>
 
               </div>
@@ -227,16 +227,16 @@ const School = () => {
             </div>
 
             <div className='flex justify-center items-center'>
-              <img src={stabsp3} alt='stabsp3' className='object-cover w-[440px] h-[410] rounded-3xl' />
+              <img src={stabsp3} alt='stabsp4' className='object-cover w-[440px] h-[410] rounded-3xl' />
             </div>
 
           </div>
 
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+          <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6'>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2 mt-4'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
                 <p className='font-sans text-[14px] text-gray-800 ml-2'>Все желающие</p>
               </div>
@@ -273,11 +273,11 @@ const School = () => {
 
           </div>
           
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+          <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6 '>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-2 p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl mt-4 p-2'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
                 <p className='font-sans text-[14px] text-gray-800 ml-2'>Ученики 4 - 6 классов</p>
               </div>
@@ -314,11 +314,11 @@ const School = () => {
 
           </div>
 
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 mx-2'>
+          <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6'>  
               
-              <div className='flex w-[200px] bg-darkgrey rounded-xl  p-2'>
+              <div className='flex w-[200px] bg-darkgrey rounded-xl p-2 mt-4'>
                 <img src={schoolicon} alt='schoolicon' className='object-cover' />
                 <p className='font-sans text-[14px] text-gray-800 ml-2'>Все желающие</p>
               </div>
@@ -360,7 +360,7 @@ const School = () => {
 
       <HeadText title="Мероприятия" />
 
-      <div className='flex justify-center py-6'>
+      <div className='flex justify-center py-6 '>
         <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(1)}>
              <button className='my-4'>Экскурсии</button>
@@ -375,13 +375,13 @@ const School = () => {
       </div>
 
         <div className={`flex flex-col justify-center items-center py-10 ${stabs === 1 ? "block" : "hidden"}`}>
-          <div className='tab-animation'>
+          <div className='tab-animation mx-4'>
             <Explore />
           </div>
         </div>
 
         <div className={`flex flex-col justify-center items-center py-10 ${stabs === 2 ? "block" : "hidden"}`}>
-          <div className='tab-animation'>
+          <div className='tab-animation mx-4'>
             <Prep />
           </div>
         </div>
@@ -394,13 +394,13 @@ const School = () => {
 
         <HeadText title="Олимпиады" />
 
-        <div className='flex justify-center my-12'>
+        <div className='flex justify-center my-12 mx-4s'>
         <div className='flex flex-col md:flex-row-reverse bg-darkgray rounded-3xl shadow-xl '>
           
           <div className='h-full flex flex-col justify-start mt-6 mx-6'>
-            <h4 className='font-bold text-[22px] text-white'>Олимпиада по промышленной разработке «PROD»</h4>
-            <p className='font-sans text-white'>Состязание с практикой по программированию для школьников 9-11 классов</p>
-            <p className='font-sans mt-6 max-w-[600px] text-white'>Победители получат допбаллы и другие преимущества при поступлении в НИУ ВШЭ или Центральный университет</p>
+            <h4 className='font-bold text-[22px] text-gray-500 '>Олимпиада по промышленной разработке «PROD»</h4>
+            <p className='font-sans text-gray-500'>Состязание с практикой по программированию для школьников 9-11 классов</p>
+            <p className='font-sans mt-6 max-w-[600px] text-gray-500'>Победители получат допбаллы и другие преимущества при поступлении в НИУ ВШЭ или Центральный университет</p>
             <div className='mt-8'>
               <GrayButton title="Узнать подробнее" />
             </div>
@@ -411,7 +411,7 @@ const School = () => {
         </div>
         </div>
 
-        <div className='flex justify-center md:flex-row flex-col gap-10 mb-10'> 
+        <div className='flex justify-center md:flex-row flex-col gap-10 mb-10 mx-4'> 
 
           <div className='bg-white rounded-3xl shadow-xl p-8'>
             <h5 className='text-gray text-[14px]'>Школьники 9 — 11 классов</h5>
@@ -435,8 +435,8 @@ const School = () => {
 
         <HeadText title="Профильный класс Т‑Банк" />
        
-        <div className='flex justify-center py-10'>
-          <div className='bg-white rounded-3xl shadow-3xl flex md:flex-row-reverse flex-col'>
+        <div className='flex justify-center py-10 mx-4'>
+          <div className='bg-white rounded-3xl shadow-3xl flex md:flex-row-reverse flex-col p-6'>
           <div className='mr-6'>
             <h4 className='font-bold text-[22px] mt-4'>Т-класс в школах России</h4>
             <p className='font-sans mt-4 max-w-[550px]'>Открываем классы с углубленным изучением программирования по всей стране</p>
