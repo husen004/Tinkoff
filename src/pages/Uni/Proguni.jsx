@@ -12,7 +12,7 @@ const Proguni = () => {
   return (
     <div className='flex flex-col justify-center items-center tab-animation'>
     
-    <div className='flex flex-wrap gap-10 my-8'>
+    <div className='flex justify-center items-center flex-wrap gap-10 my-8 mx-6'>
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 hover:scale-105 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Проекты в НИУ ВШЭ</h4>
@@ -45,20 +45,20 @@ const Proguni = () => {
 
       <div className='flex justify-center my-6'>
       <div className='bg-darkgray rounded-3xl shadow-xl flex md:flex-row flex-col'>
-      <div className='flex flex-col p-8'>
+      <div className='flex flex-col p-8 mx-[38px]'>
         <h4 className='font-bold text-[22px]'>Проекты в МГТУ им. Баумана</h4>
         <p className='max-w-[490px] mt-2'>Курсы, хакатоны и митапы по разработке в рамках научно-образовательного центра «Дизайн и разработка продуктов и технологий»</p>
         <WhiteButton className="mt-10" title="Узнать подробнее" />
       </div>
-        <img src={progp4} className='object-cover w-[528px] h-[260px] mx-10'/>
+        <img src={progp4} className='object-cover w-[528px] h-[260px]'/>
       </div>
       </div>
 
-      <div className='flex flex-wrap gap-10 my-8'>
+      <div className='flex justify-center items-center flex-wrap gap-10 my-8'>
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 hover:scale-105 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
-          <h4 className='font-bold text-[23px] mt-8'>Проекты в НИУ ВШЭ</h4>
-          <p className='font-sans my-4 max-w-[300px]'>Базовая кафедра на факультете компьютерных наук: специализция, проекты и спецкурсы</p>
+          <h4 className='font-bold text-[23px] mt-8'>Проекты в <br /> Санкт-Петербурге</h4>
+          <p className='font-sans my-4 max-w-[300px]'>Спецкурсы и семинары по программированию, анализу данных и математике</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
           <div className='mt-6'> 
            <img src={progp5} className='object-cover w-[360px] h-[240px]'/>
@@ -66,8 +66,8 @@ const Proguni = () => {
         </div>
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
-          <h4 className='font-bold text-[23px] mt-8'>Проекты в МФТИ</h4>
-          <p className='font-sans my-4 max-w-[300px]'>Бакалавриат и магистратура в рамках базовой кафедры на ФПМИ МФТИ</p>
+          <h4 className='font-bold text-[23px] mt-8'>Проекты в Нижнем  <br/>Новгороде</h4>
+          <p className='font-sans my-4 max-w-[300px]'>Кафедра в нижегородском кампусе НИУ ВШЭ</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
           <div className='mt-6'> 
            <img src={progp6} className='object-cover w-[360px] h-[240px] mt-6'/>
@@ -75,13 +75,13 @@ const Proguni = () => {
         </div> 
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
-          <h4 className='font-bold text-[23px] mt-8'>Проекты в МГУ</h4>
-          <p className='font-sans my-4 max-w-[300px]'>Спецкурсы и семинары по программированию, анализу данных и математике</p>
+          <h4 className='font-bold text-[23px] mt-8'>Проекты <br/>в макрорегионах</h4>
+          <p className='font-sans my-4 max-w-[260px]'>Для студентов разных регионов России</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
           <div className='mt-6'> 
-           <img src={progp7} className='object-cover w-[360px] h-[240px]'/>
+           <img src={progp7} className='object-cover w-[360px] h-[240px] mt-6'/>
           </div>
-        </div>
+        </div> 
 
     </div>
 
