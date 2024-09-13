@@ -394,7 +394,7 @@ const School = () => {
 
         <HeadText title="Олимпиады" />
 
-        <div className='flex justify-center my-12 mx-4s'>
+        <div className='flex justify-center my-12 mx-4'>
         <div className='flex flex-col md:flex-row-reverse bg-darkgray rounded-3xl shadow-xl '>
           
           <div className='h-full flex flex-col justify-start mt-6 mx-6'>
@@ -451,7 +451,7 @@ const School = () => {
           <HeadText title="Партнерские программы Т‑Банка" />
 
           <div className='flex justify-center py-10'>
-            <div className='flex md:flex-row flex-col rounded-3xl shadow-xl bg-darkgrey transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer'>
+            <div className='flex md:flex-row flex-col rounded-3xl shadow-xl bg-darkgrey transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer'>
             <div className='ml-12 mt-12'>
               <h1 className="font-bold text-[34px]">Совместные проекты</h1>
               <p className='font-sans max-w-[400px] mt-2'>Летние лагеря, школы, соревнования и олимпиады, которые мы поддерживаем и проводим совместно c партнерами</p>
