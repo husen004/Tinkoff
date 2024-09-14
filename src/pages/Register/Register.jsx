@@ -14,13 +14,14 @@ const Register = () => {
           <p className='fonst-sasn text-[18px] mb-6 my-2'>Введите почту, чтобы войти или зарегистрироваться</p>
         </div>
 
-        <div className='flex justify-center'>
-          <div className='group '>
-           <input required="email" type="email" class="input" />
-           <span class="highlight"></span>
-           <span class="bar"></span>
-           <label className='label'>Электронная почта</label>
-          </div>
+        <div className='flex justify-center items-center'>
+
+        <div class="input-container">
+          <input name='email' id='email' placeholder="Электронная почта" class="input-field" type="text" />
+          <label for="email" class="input-label">Элуктронная почта</label>
+          <span class="input-highlight"></span>
+        </div>
+
           <div>
             <button className='p-[11px] border-none rounded-r-xl transition ease-in-out duration-300 hover:bg-yellow-400 bg-yellow-300'>Продолжить</button>
           </div>
