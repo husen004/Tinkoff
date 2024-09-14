@@ -45,7 +45,7 @@ const Home = () => {
 
         <div className='flex justify-center items-center flex-col'>
         <HeadText title="Вклад в поколение" />
-        <p className='font-sans my-4'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Грантовый конкурс </span>для талантливых педагогов со всей России</p>
+        <p className='text-center font-sans my-4'><span className='transition ease-in text-blue-400 hover:text-blue-500 cursor-pointer'>Грантовый конкурс </span>для талантливых педагогов со всей России</p>
         </div>
 
       <div className=''>
@@ -64,7 +64,7 @@ const Home = () => {
         </div>
           
         <div className='flex justify-center my-8'>
-          <BlueButton title="Узнать потробнее о проекте"/>
+          <BlueButton bclassName="w-[700px]" title="Узнать потробнее о проекте"/>
         </div>
 
       </div>
@@ -83,7 +83,7 @@ const Home = () => {
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen 
+        allowFullScreen 
         className='player rounded-3xl'
         ></iframe>
 
@@ -101,7 +101,7 @@ const Home = () => {
         <HeadText title="Для школьников" />
         
       <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105 cursor-pointer'>
-        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
+        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl mx-6'>
           <div className='flex flex-col  max-w-[550px] mx-8'>
             <h4 className='font-bold text-[23px] mt-8'>Бесплатные проекты для разных уровней подготовки</h4>
             <ul className='my-2 max-w-[350px]'>
@@ -122,14 +122,14 @@ const Home = () => {
         <HeadText title="Для студентов и начинающих специалистов" />
       </div>
 
-      <div className='flex justify-center'>
+      <div className='flex justify-center items-center'>
           <DifTabs />
       </div>
 
       <HeadText title="Для специалистов с опытом" />
 
       <div className='flex justify-center items-center py-10 transition ease-in hover:scale-105 cursor-pointer'>
-        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl'>
+        <div className='flex md:flex-row flex-col justify-start w-[1104px] bg-darkgrey rounded-3xl mx-4'>
           <div className='flex flex-col  max-w-[550px] mx-8'>
             <h4 className='font-bold text-[23px] mt-8'>Т-Банк Финтех Мидл</h4>
             <ul className='my-2 max-w-[550px]'>
@@ -149,7 +149,7 @@ const Home = () => {
 
       <div className='flex flex-wrap justify-center items-center gap-10 my-14'>
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg mx-4'>
           <h4 className='font-bold text-[23px] mt-8'>Олимпиады и хакатоны</h4>
           <p className='font-sans my-4 max-w-[440px]'>Устраиваем математические игры и проводим командные чемпионаты</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
@@ -158,7 +158,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg mx-4'>
           <h4 className='font-bold text-[23px] mt-8'>Митапы</h4>
           <p className='font-sans my-4 max-w-[440px]'>Совместно с командой DevRel организовываем <br /> митапы</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
@@ -184,7 +184,7 @@ const Home = () => {
       picture-in-picture; 
       web-share" 
       referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen
+      allowFullScreen
       className='player rounded-3xl max-w-[800px]'
       ></iframe>
       </div>
