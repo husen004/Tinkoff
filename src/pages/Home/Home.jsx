@@ -1,7 +1,6 @@
 import React from 'react';
 import { course } from '../../constants';
 import { payment } from '../../constants';
-import { forSchool } from '../../constants';
 import Button from '../../components/Button';
 import prog from '../../assets/images/prog.webp';
 import HeadText from '../../components/HeadText'
@@ -11,6 +10,7 @@ import forschool from '../../assets/images/forschool.webp';
 import hometwo from '../../assets/images/hometwo.webp'
 import eventp1 from '../../assets/images/eventp1.webp';
 import eventp2 from '../../assets/images/eventp2.webp';
+import DifTabs from './DifTabs';
 
 const Home = () => {
   return (
@@ -122,21 +122,8 @@ const Home = () => {
         <HeadText title="Для студентов и начинающих специалистов" />
       </div>
 
-      <div className='flex justify-center mx-auto mb-16'>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-        {forSchool.map((f, index) => (
-          <div className='w-full flex flex-wrap bg-white rounded-3xl gap-4 shadow-lg ' key={index}>
-          <div className='flex flex-row '>
-            <div className='flex flex-col justify-start'>
-              <h4 className='font-bold text-[23px]'>{f.title}</h4>
-              <p className='font-sans max-w-[250px]'>{f.para}</p>
-              <h4 className='flex items-end'>{f.btext}</h4>
-            </div>
-            <img src={f.img} className='object-cover'/>
-          </div>
-          </div>
-        ))}
-      </div>
+      <div className='flex justify-center'>
+          <DifTabs />
       </div>
 
       <HeadText title="Для специалистов с опытом" />
