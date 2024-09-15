@@ -360,8 +360,8 @@ const School = () => {
 
       <HeadText title="Мероприятия" />
 
-      <div className='flex justify-center py-6 '>
-        <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
+      <div className='flex justify-center py-6 mx-4'>
+        <div className='flex flex-row gap-2 md:gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(1)}>
              <button className='my-4'>Экскурсии</button>
           </div>
@@ -458,7 +458,7 @@ const School = () => {
               <WhiteButton title="Узнать подробнее" className="mt-[100px]" />
             </div>
              <div>
-              <img src={simg7} className='object-cover w-[580px] h-[400px]'/>
+              <img src={simg7} className='object-cover w-[500px] h-[400px]'/>
             </div>
             </div>
           </div>
