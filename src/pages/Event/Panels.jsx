@@ -7,10 +7,10 @@ import eventp5 from '../../assets/images/eventp5.webp'
 const Panels = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-10 mb-10'>
-        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer'>
+        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10'>
-            <h4 className='font-bold text-[23px] max-w-[520px]'>Экскурсии в офисы Т‑Банка для школьников и студентов</h4>
+            <h4 className='font-bold text-[23px] max-w-[520px]'>Экскурсии в офисы Т‑Банка для школьников <br/> и студентов</h4>
             <ul className='list-none my-4'>
                 <li className='font-sans my-4'>— Покажем вам офис</li>
                 <li className='font-sans max-w-[550px] my-4'>— Расскажем о том, как попасть к нам в штат: через образовательные программы, стажировки и вакансии</li>
@@ -26,7 +26,7 @@ const Panels = () => {
 
         </div>
 
-        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500  hover:scale-105 cursor-pointer'>
+        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500  md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10'>
             <h4 className='font-bold text-[23px] max-w-[520px]'>Проектные смены в «Сириусе» для студентов</h4>
@@ -45,7 +45,7 @@ const Panels = () => {
 
         </div>
 
-        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500  hover:scale-105 cursor-pointer'>
+        <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500  md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10'>
             <h4 className='font-bold text-[23px] max-w-[520px]'>Мероприятия, которые мы проводим с партнерами</h4>

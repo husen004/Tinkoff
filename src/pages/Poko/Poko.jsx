@@ -143,7 +143,7 @@ const Poko = () => {
       <HeadText title="Этапы отбора и календарь проекта" />
       <Para title="Обратите внимание, что получить грант смогут участники, которые официально работают в школе или организации дополнительного образования на момент 1 сентября 2024 года" />
       <Otbor />
-      <BlueButton title="Положение в конкурсе" />
+      <BlueButton className="justify-center" title="Положение в конкурсе" />
       </div>
 
       <div className='flex justify-center py-10 px-6'>
@@ -151,7 +151,7 @@ const Poko = () => {
         <div className='flex items-start flex-col pt-6 pl-6'>
           <h4 className='font-bold text-[20px] '>Разбор отборочных испытаний</h4>
           <p className='max-w-[500px] mt-6'>Подробно описали решения и критерии оценки отборочного этапа по математике конкурса 2023 года <br/> <br/>Обратите внимание, что в 2024 году вид предметного тестирования зависит от дисциплины, которую вы преподаете </p>
-          <BlueButton className="mt-8" title="Посмотреть разбор" />
+          <BlueButton className="mt-4" title="Посмотреть разбор" />
         </div>
         <img src={pokop3} className='w-[528px] h-[260px] mt-8'/>
         </div>

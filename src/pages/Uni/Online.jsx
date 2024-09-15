@@ -17,7 +17,7 @@ const Online = () => {
               <h4 className='font-bold text-[22px] mt-12'>Стипендии в Т-Банке </h4>
               <p className='font-sans text-[14px] text-gray-600 mt-2'>Подерживаем талатлевых студентов технической специаьности со всей России</p>
               
-              <div className='flex flex-row gap-16 mt-8 mr-8'>
+              <div className='flex flex-row gap-2 mt-8 mr-8'>
                 <div className=''>
                   <h4 className='font-bold text-[16px]'>Два трека</h4>
                   <p className='font-sans text-[14px] text-gray-600 max-w-[140px]'>Индустриальный и Академический</p>

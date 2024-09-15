@@ -57,7 +57,7 @@ const Uni = () => {
       <HeadText title="Для студентов" />
       
       
-      <div className='flex justify-center items-center flex-row gap-6 my-4'>
+      <div className='flex justify-center items-center flex-row md:gap-6 gap-1 my-4'>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out duration-500 cursor-pointer' onClick={() => handleTab(1)}>
              <button className='my-4'>Онлайн-программы</button>
           </div>
