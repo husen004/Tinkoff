@@ -17,23 +17,23 @@ const Course = () => {
 
       </div>
 
-      <div className='flex flex-wrap justify-center items-center gap-10 my-14'>
+      <div className='flex flex-wrap justify-center items-center gap-10 my-14 mx-4'>
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 hover:scale-105 cursor-pointer bg-white rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Для начинающих</h4>
           <p className='font-sans my-4 max-w-[440px]'>Образовательные курсы по разработке, аналитике, SRE, QA, маркетингу, дизайну и другим направлениям</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
           <div className='mt-6'> 
-           <img src={finp1} className='h-[240px] w-[528px]'/>
+           <img src={finp1} className='object-cover h-[240px] w-[528px]'/>
           </div>
         </div>
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 duration-500 cursor-pointer bg-white rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out hover:scale-105 duration-500 cursor-pointer bg-white rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Для опытных</h4>
           <p className='font-sans my-4 max-w-[440px]'>Интенсивы для разработчиков, аналитиков, менеджеров и других специалистов </p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[120px] h-[50px] transition ease hover:text-gray-500'>Подробнее</button>
           <div className='mt-6'> 
-           <img src={finp2} className='h-[240px] w-[528px]'/>
+           <img src={finp2} className='object-cover h-[240px] w-[528px]'/>
           </div>
         </div>
 

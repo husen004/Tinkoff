@@ -52,7 +52,7 @@ const Uni = () => {
       </div>
 
       <HeadText title="Какие есть форматы программ" />
-      <BlueButton className="my-8 mb-10 border-[1px] border-gray-400" title="Узнать подробнее" />
+      <BlueButton className="my-8 mb-10 justify-center" title="Узнать подробнее" />
 
       <HeadText title="Для студентов" />
       

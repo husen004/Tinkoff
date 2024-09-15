@@ -23,7 +23,7 @@ const DifTabs = () => {
               <div className='flex flex-col justify-start items-start pt-6 pl-6'>
               <h1 className='font-semibold text-[22px]'>Т-банк Академия</h1>
               <p className='font-sans text-[15px] mt-6 max-w-[300px]'>Читаем лекции и спецкурсы в вузах России. Предлагаем участвовать в исследовательских проектах</p>
-              <BlueButton className="h-full items-end mb-8" title="Выбрать курс" />
+              <BlueButton className="h-full items-end mb-8 mt-[19px]" title="Выбрать курс" />
               </div>
             </div>
         </div>
