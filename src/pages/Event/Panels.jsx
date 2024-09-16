@@ -1,8 +1,8 @@
-import React from 'react'
-import BlueButton from '../../components/BlueButton'
-import eventp3 from '../../assets/images/eventp3.webp'
-import eventp4 from '../../assets/images/eventp4.webp'
-import eventp5 from '../../assets/images/eventp5.webp'
+import React from 'react';
+import BlueButton from '../../components/BlueButton';
+import eventp3 from '../../assets/images/eventp3.webp';
+import eventp4 from '../../assets/images/eventp4.webp';
+import eventp5 from '../../assets/images/eventp5.webp';
 
 const Panels = () => {
   return (
