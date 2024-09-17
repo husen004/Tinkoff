@@ -18,7 +18,7 @@ const Register = () => {
 
         <div class="input-container">
           <input autoComplete='off' name='email' id='email' placeholder="Электронная почта" class="input-field" type="text" />
-          <label for="email" class="input-label">Элуктронная почта</label>
+          <label for="email" class="input-label">Электронная почта</label>
           <span class="input-highlight"></span>
         </div>
 
