@@ -11,7 +11,7 @@ const Intern = () => {
 
         <HeadText title="Т‑Банк Старт" />
 
-        <p className='font-sans my-4 text-center'>
+        <p className='font-sans my-4 text-center max-w-[800px]'>
         Оплачиваемые стажировки в сфере ИТ. Работа над прикладными бизнес-задачами от 20 часов в неделю. Удаленно или из офиса в вашем городе
         </p>
 
