@@ -27,6 +27,9 @@ import people7 from './images/people7.png'
 import people8 from './images/people8.png'
 import people9 from './images/people9.png'
 import people10 from './images/people10.png'
+import intern1 from './images/intern1.svg'
+import intern2 from './images/intern2.svg'
+import intern3 from './images/intern3.svg'
 
 
 
