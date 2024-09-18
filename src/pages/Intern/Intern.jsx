@@ -5,6 +5,7 @@ import headintern from '../../assets/images/headintern.webp'
 import { schoolaricons } from '../../constants/Schoolar'
 import intern4 from '../../assets/images/intern4.webp'
 import Internstar from './Internstar'
+import '../../index.css'
 
 const Intern = () => {
   return (
@@ -14,7 +15,7 @@ const Intern = () => {
 
         <HeadText title="Т‑Банк Старт" />
 
-        <p className='font-sans my-4 text-center max-w-[800px]'>
+        <p className='font-sans my-4 text-center max-w-[800px] '>
         Оплачиваемые стажировки в сфере ИТ. Работа над прикладными бизнес-задачами от 20 часов в неделю. Удаленно или из офиса в вашем городе
         </p>
 
@@ -31,7 +32,7 @@ const Intern = () => {
       <div className='flex flex-wrap justify-center items-cetner gap-10 my-10'>
       {schoolaricons.map((s, index) => (
         <div className='flex flex-row md:px-0 px-4'  key={index}>
-          <img src={s.icon} className='bg-white shadow-lg rounded-3xl object-contain w-[64px] h-[64px]'/>
+          <img src={s.icon} className='bg-white shadow-lg rounded-3xl object-contain w-[64px] h-[64px] mt-4'/>
           <div className='flex flex-col ml-6 max-w-[450px]'>
           <h1 className='font-bold text-[22px]'>{s.title}</h1>
           <p className='font-sans max-w-[450px] mt-2 text-[15px]'>{s.para}</p>

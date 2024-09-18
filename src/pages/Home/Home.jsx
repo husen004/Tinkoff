@@ -34,7 +34,7 @@ const Home = () => {
     <div className='flex flex-wrap justify-center items-cetner gap-10 my-10'>
       {course.map((c, index) => (
         <div className='flex flex-row md:px-0 px-4'  key={index}>
-          <img src={c.icon} className='bg-white shadow-lg rounded-3xl object-contain w-[64px] h-[64px]'/>
+          <img src={c.icon} className='bg-white shadow-lg rounded-3xl object-contain w-[64px] h-[64px] mt-4'/>
           <div className='flex flex-col ml-6 max-w-[450px]'>
           <h1 className='font-bold text-[22px]'>{c.title}</h1>
           <p className='font-sans max-w-[450px] mt-2 text-[15px]'>{c.para}</p>

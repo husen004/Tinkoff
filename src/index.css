@@ -10,6 +10,10 @@ body {
   background-color: rgb(241, 241, 241);
 }
 
+.img-bg {
+  background-color: rgb(241, 241, 241);
+}
+
 .player {
   aspect-ratio: 16 / 9 ;
   width: 100%;

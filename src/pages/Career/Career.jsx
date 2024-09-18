@@ -24,7 +24,7 @@ const Career = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <img src={headcarer} alt='carer' className='object-cover w-[80%] overflow-hidden'/>
+        <img src={headcarer} alt='carer' className='object-cover w-[80%]'/>
       </div>  
 
       <HeadText title="Для специалистов с опытом" />
