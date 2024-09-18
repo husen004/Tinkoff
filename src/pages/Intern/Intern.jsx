@@ -23,7 +23,7 @@ const Intern = () => {
         <img src={headintern} alt='intern' className='object-cover w-[80%]'/>
       </div> 
 
-      
+      <HeadText title="Что мы предлагаем" />
 
     </div>
   )
