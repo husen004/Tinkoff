@@ -68,8 +68,6 @@ const DifTabs = () => {
 
         </div>
 
-        
-
     </div>
   )
 }
