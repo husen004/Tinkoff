@@ -23,6 +23,8 @@ const Intern = () => {
         <img src={headintern} alt='intern' className='object-cover w-[80%]'/>
       </div> 
 
+      
+
     </div>
   )
 }
