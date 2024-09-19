@@ -74,7 +74,7 @@ const Intern = () => {
       <HeadText title="Какие есть направления" />
 
       <div className='flex justify-center py-6 mx-4'>
-        <div className='flex flex-row gap-2 md:gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
+        <div className='flex flex-row justify-center items-center flex-wrap gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(1)}>
              <button className='my-4'>Разработка</button>
           </div>
