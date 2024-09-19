@@ -61,7 +61,7 @@ const Intern = () => {
         <div className='bg-white shadow-xl rounded-3xl flex md:flex-row flex-col'>
         <div className='p-8'>
           <h1 className='font-bold text-2xl'>Выбирайте удобное количество часов</h1>
-          <p className='fonw-sans max-w-[550px] mt-4'>Можно работать от 20 до 40 часов в неделю в течение всего учебного года и летом. Стажировка продлится от 3 до 6 месяцев по договоренности с командой</p>
+          <p className='font-sans max-w-[550px] mt-4'>Можно работать от 20 до 40 часов в неделю в течение всего учебного года и летом. Стажировка продлится от 3 до 6 месяцев по договоренности с командой</p>
         </div>
         <img src={intern4} alt='intern4' className='object-cover w-[315px] h-[260px] rounded-3xl' />
         </div>
