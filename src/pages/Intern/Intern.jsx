@@ -127,6 +127,8 @@ const Intern = () => {
         <Uri />
       </div>
 
+      <HeadText title="Как попасть на Т‑Банк Старт" />
+
     </div>
   )
 }
