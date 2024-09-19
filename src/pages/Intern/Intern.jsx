@@ -6,6 +6,13 @@ import { schoolaricons } from '../../constants/Schoolar'
 import intern4 from '../../assets/images/intern4.webp'
 import Internstar from './Internstar'
 import '../../index.css'
+import Analyt from './Analyt'
+import Develope from './Develope'
+import Final from './Final'
+import Managment from './Managment'
+import Market from './Market'
+import QA from './QA'
+import Uri from './Uri'
 
 const Intern = () => {
 
@@ -90,6 +97,34 @@ const Intern = () => {
              <button className='my-4'>Юриспруденция</button>
           </div>
         </div>
+      </div>
+
+      <div className={`${tabs === 1 ? "block" : "hidden"}`}>
+        <Develope />
+      </div>
+
+      <div className={`${tabs === 2 ? "block" : "hidden"}`}>
+        <Analyt />
+      </div>
+
+      <div className={`${tabs === 3 ? "block" : "hidden"}`}>
+        <QA />
+      </div>
+
+      <div className={`${tabs === 4 ? "block" : "hidden"}`}>
+        <Market />
+      </div>
+
+      <div className={`${tabs === 5 ? "block" : "hidden"}`}>
+        <Managment />
+      </div>
+
+      <div className={`${tabs === 6 ? "block" : "hidden"}`}>
+        <Final />
+      </div>
+
+      <div className={`${tabs === 7 ? "block" : "hidden"}`}>
+        <Uri />
       </div>
 
     </div>

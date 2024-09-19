@@ -1,8 +1,11 @@
 import React from 'react'
+import '../../index.css'
 
 const Develope = () => {
   return (
-    <div>Develope</div>
+    <div className='tab-animation'>
+    
+    </div>
   )
 }
 
