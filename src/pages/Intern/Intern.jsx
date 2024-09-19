@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeadText from '../../components/HeadText'
 import Button from '../../components/Button'
 import headintern from '../../assets/images/headintern.webp'
@@ -8,6 +8,13 @@ import Internstar from './Internstar'
 import '../../index.css'
 
 const Intern = () => {
+
+  const [tabs, setTabs] = useState(1)
+
+  function secondHandleTab(i) {
+    setTabs(i)
+  }
+
   return (
     <div className='w-full'>
 
@@ -58,6 +65,32 @@ const Intern = () => {
       <Internstar />
 
       <HeadText title="Какие есть направления" />
+
+      <div className='flex justify-center py-6 mx-4'>
+        <div className='flex flex-row gap-2 md:gap-6 border-b-[1px] border-gray-300 cursor-pointer'>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(1)}>
+             <button className='my-4'>Разработка</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(2)}>
+             <button className='my-4'>Аналитика</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4'>QA</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4'>Маркетинг</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4'>Менеджмент</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4'>Финансы</button>
+          </div>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+             <button className='my-4'>Юриспруденция</button>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
