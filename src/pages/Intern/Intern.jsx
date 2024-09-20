@@ -84,16 +84,16 @@ const Intern = () => {
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
              <button className='my-4'>QA</button>
           </div>
-          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(4)}>
              <button className='my-4'>Маркетинг</button>
           </div>
-          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(5)}>
              <button className='my-4'>Менеджмент</button>
           </div>
-          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(6)}>
              <button className='my-4'>Финансы</button>
           </div>
-          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(3)}>
+          <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => secondHandleTab(7)}>
              <button className='my-4'>Юриспруденция</button>
           </div>
         </div>
@@ -108,7 +108,7 @@ const Intern = () => {
       </div>
 
       <div className={`${tabs === 3 ? "block" : "hidden"}`}>
-        <QA />
+      
       </div>
 
       <div className={`${tabs === 4 ? "block" : "hidden"}`}>
