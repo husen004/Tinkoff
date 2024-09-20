@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../index.css'
-import { qa } from '../../constants/Schoolar'
+import { finan } from '../../constants/Schoolar'
 
 const Final = () => {
   return (
     <div className='tab-animation flex justify-center my-10 mx-4'>
       <div className='w-[1000px]'>
-        {qa.map((q, index) => (
+        {finan.map((q, index) => (
           <div key={index}>
             <div className='flex justify-center flex-col bg-white rounded-3xl shadow-xl p-6 transition ease-in-out duration-500 md:hover:scale-105 cursor-pointer' key={index}>
             
