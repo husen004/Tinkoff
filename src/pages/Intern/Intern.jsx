@@ -108,7 +108,7 @@ const Intern = () => {
       </div>
 
       <div className={`${tabs === 3 ? "block" : "hidden"}`}>
-      
+        <QA />
       </div>
 
       <div className={`${tabs === 4 ? "block" : "hidden"}`}>
