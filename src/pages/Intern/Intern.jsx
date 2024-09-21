@@ -14,6 +14,7 @@ import Market from './Market'
 import QA from './QA'
 import Uri from './Uri'
 import Roadmap from './Roadmap'
+import InternFAQ from './InternFAQ'
 
 const Intern = () => {
 
@@ -133,6 +134,8 @@ const Intern = () => {
       <Roadmap />
 
       <HeadText title="Часто задаваемые вопросы" />
+
+      <InternFAQ />
 
     </div>
   )

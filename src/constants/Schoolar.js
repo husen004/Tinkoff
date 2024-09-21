@@ -5,6 +5,49 @@ import {
     intern3,
 } from "../assets";
 
+export const InternFAQ = [
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+    {
+        title: "",
+        para: "",
+    },
+]
+
 export const develope = [
     {
         stage: "Набор открыт",
