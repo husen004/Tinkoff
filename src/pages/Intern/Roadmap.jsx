@@ -17,7 +17,7 @@ const Roadmap = () => {
             <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>2</span>
             <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6 '>
             <h4 className='font-semibold text-[20px]'>Зарегистрируйтесь</h4>
-            <p className='fons-sans text-[16] mt-4'>Зарегистрируйтесь <span className='cursor-pointer text-blue-400'> в личном кабинете Т-Образования</span></p>
+            <p className='fons-sans text-[16] mt-4'>Зарегистрируйтесь <span className='cursor-pointer text-blue-600 underline'> в личном кабинете Т-Образования</span></p>
             </div>
           </div>
 
@@ -33,9 +33,9 @@ const Roadmap = () => {
             <span className='text-[35px] flex justify-center items-center bg-yellow-300 rounded-xl w-[60px] h-[60px]'>4</span>
             <div className='bg-white rounded-3xl shadow-xl flex flex-col p-6'>
             <h4 className='font-semibold text-[20px]'>Пройдите онлайн-экзамен</h4><br/>
-            <p className='font-sans'>Перед экзаменом можно попробовать свои силы, решив <span className='cursor-pointer text-blue-400'>тренировочный контест</span></p><br/>
-            <p className='font-sans'>— Материалы для подготовки ищите в сообществе во ВКонтакте</p>  
-            <p className='fons-sans'>— Вопросы можно задать в телеграм-боте @clar_tbot</p>
+            <p className='font-sans'>Перед экзаменом можно попробовать свои силы, решив <span className='cursor-pointer text-blue-600 underline'>тренировочный контест</span></p><br/>
+            <p className='font-sans'>— Материалы для подготовки ищите<span className='cursor-pointer text-blue-600 underline'> в сообществе во ВКонтакте</span></p>  
+            <p className='fons-sans'>— Вопросы можно задать <span className='cursor-pointer text-blue-600 underline'>в телеграм-боте @clar_tbot</span> </p>
             </div>
           </div>
           <div className='flex flex-col md:flex-row items-center gap-10 text-center'>
