@@ -132,6 +132,8 @@ const Intern = () => {
 
       <Roadmap />
 
+      <HeadText title="Часто задаваемые вопросы" />
+
     </div>
   )
 }
