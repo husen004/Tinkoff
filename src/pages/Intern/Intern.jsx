@@ -13,6 +13,7 @@ import Managment from './Managment'
 import Market from './Market'
 import QA from './QA'
 import Uri from './Uri'
+import Roadmap from './Roadmap'
 
 const Intern = () => {
 
