@@ -4,6 +4,7 @@ import Button from '../../components/Button'
 import headevent from '../../assets/images/headevent.webp'
 import Panels from './Panels'
 
+
 const Event = () => {
   return (
     <div>
