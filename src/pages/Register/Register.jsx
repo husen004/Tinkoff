@@ -28,8 +28,8 @@ const Register = () => {
         </div>
 
         <div className='flex flex-col justify-start items-center mt-4'>
-          <p className='font-sans mt-2 text-blue-400 cursor-pointer transition-all ease-in-out duration-300 hover:text-blue-600'>Вход для сотрудников</p>
-          <p className='font-sans my-2 text-blue-400 cursor-pointer transition-all ease-in-out duration-300 hover:text-blue-600'>Вход через Центральный университет</p>
+          <p className='font-sans mt-2 text-blue-400 cursor-pointer transition-all ease-in-out duration-300 md:hover:text-blue-600'>Вход для сотрудников</p>
+          <p className='font-sans my-2 text-blue-400 cursor-pointer transition-all ease-in-out duration-300 md:hover:text-blue-600'>Вход через Центральный университет</p>
         </div>
 
         </div>
