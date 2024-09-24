@@ -58,7 +58,7 @@ const Lab = () => {
 
       </div>
 
-      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer mx-4'>
+      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10'>
         <div className='flex w-[350px] bg-darkgrey rounded-xl p-2'>
@@ -80,7 +80,7 @@ const Lab = () => {
 
       </div>
 
-      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer mx-4'>
+      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10'>
         <div className='flex w-[260px] bg-darkgrey rounded-xl p-2'>
