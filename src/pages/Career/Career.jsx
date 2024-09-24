@@ -41,7 +41,7 @@ const Career = () => {
       </div>
 
       <div className='flex flex-col justify-center items-center '>
-        <div className='flex flex-col md:flex-row bg-white rounded-3xl shadow-xl transition ease-in hover:scale-105 cursor-pointer'>
+        <div className='flex flex-col md:flex-row bg-white rounded-3xl shadow-xl transition ease-in md:hover:scale-105 cursor-pointer'>
 
         <div className='flex flex-col items-start ml-8'>
           <h4 className='font-bold text-[23px] mt-8'>Рассказываем, как живут ИТ-сообщества</h4>
@@ -59,7 +59,7 @@ const Career = () => {
       <HeadText title="Для преподавателей" />
 
       <div className='flex justify-center my-10'>
-        <div className='flex flex-col md:flex-row bg-darkgrey rounded-3xl shadow-xl transition ease-in hover:scale-105 cursor-pointer'>
+        <div className='flex flex-col md:flex-row bg-darkgrey rounded-3xl shadow-xl transition ease-in md:hover:scale-105 cursor-pointer'>
 
         <div className='mt-10 ml-6'>
           <h4 className='font-bold text-[23px]'>Работы в Т-Образование</h4>
