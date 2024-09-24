@@ -77,7 +77,7 @@ const School = () => {
             <div className='h-full flex flex-col justify-center items-center' key={index} >
               <img src={s.icon} alt='sicon' className='mt-2 object-cover w-[25px] h-[25px]'/>
               <div className='flex justify-center text-center h-[30px] cursor-pointer'>
-                <p className='font-sans text-[12px] max-w-[80px] hover:opacity-80 transition-all duration-300 ease-in-out'>{s.title}</p>
+                <p className='font-sans text-[12px] max-w-[80px] md:hover:opacity-80 transition-all duration-300 ease-in-out'>{s.title}</p>
               </div>
             </div>
           ))}
