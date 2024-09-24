@@ -56,7 +56,7 @@ const Proguni = () => {
 
       <div className='flex justify-center items-center flex-wrap gap-10 my-8'>
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 hover:scale-105 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 md:hover:scale-105 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Проекты в <br /> Санкт-Петербурге</h4>
           <p className='font-sans my-4 max-w-[300px]'>Спецкурсы и семинары по программированию, анализу данных и математике</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
@@ -65,7 +65,7 @@ const Proguni = () => {
           </div>
         </div>
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in md:hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Проекты в Нижнем  <br/>Новгороде</h4>
           <p className='font-sans my-4 max-w-[300px]'>Кафедра в нижегородском кампусе НИУ ВШЭ</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
@@ -74,7 +74,7 @@ const Proguni = () => {
           </div>
         </div> 
 
-        <div className='relative flex flex-col justify-center items-center text-center transition ease-in hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
+        <div className='relative flex flex-col justify-center items-center text-center transition ease-in md:hover:scale-105 duration-500 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Проекты <br/>в макрорегионах</h4>
           <p className='font-sans my-4 max-w-[260px]'>Для студентов разных регионов России</p>
           <button className='absolute bottom-0 mb-8 bg-white rounded-xl shadow-lg w-[180px] h-[50px] transition ease hover:text-gray-500'>Узнать подробнее</button>
