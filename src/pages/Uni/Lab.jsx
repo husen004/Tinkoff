@@ -11,7 +11,7 @@ const Lab = () => {
   return (
     <div className='flex justify-center flex-col items-center gap-10 tab-animation'>
       
-      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer mx-4'>
+      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10 '>
         <div className='flex w-[290px] bg-darkgrey rounded-xl p-2'>
@@ -35,7 +35,7 @@ const Lab = () => {
 
       </div>
 
-      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 hover:scale-105 cursor-pointer mx-4'>
+      <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
         <div className='pl-10 pt-10 h-full' >
         <div className='flex w-[250px] bg-darkgrey rounded-xl p-2'>
