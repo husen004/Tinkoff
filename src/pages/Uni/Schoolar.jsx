@@ -6,7 +6,7 @@ import unip2 from '../../assets/images/unip2.webp'
 const schoolar = () => {
   return (
     <div className='flex justify-center tab-animation'>
-      <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out hover:scale-105 cursor-pointer mx-2'>
+      <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 cursor-pointer mx-2'>
 
             <div className='ml-6'>  
               
