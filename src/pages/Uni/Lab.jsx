@@ -9,7 +9,7 @@ import unip6 from '../../assets/images/unip6.webp'
 
 const Lab = () => {
   return (
-    <div className='flex justify-center flex-col items-center gap-10 tab-animation'>
+    <div className='flex justify-center flex-col items-center gap-10 slide-tabs'>
       
       <div className='flex lg:flex-row flex-col bg-white rounded-3xl shadow-xl transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer mx-4'>
 
