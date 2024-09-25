@@ -19,8 +19,11 @@ body {
   width: 100%;
 }
 
-.slide-bottom{animation:slide-bottom .2s cubic-bezier(.25,.46,.45,.94) .2s both}
-@keyframes slide-bottom{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
+.slide{animation:slide .2s cubic-bezier(.25,.46,.45,.94) .2s both}
+@keyframes slide{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
+
+.slide-tabs{animation:slide-tabs .4s cubic-bezier(.25,.46,.45,.94) .4s both}
+@keyframes slide-tabs{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
 
 .bgimage {
   background-image: url(headevent.webp);
