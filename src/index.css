@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 
-
+.slide-bottom{animation:slide-bottom .5s cubic-bezier(.25,.46,.45,.94) 1s both}
 
 .bgimage {
   background-image: url(headevent.webp);
