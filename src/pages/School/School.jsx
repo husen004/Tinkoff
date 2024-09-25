@@ -86,7 +86,7 @@ const School = () => {
 
       <HeadText title="Курсы" />
 
-      <div className='flex justify-center py-6'>
+      <div className='flex justify-center py-2'>
         <div className='flex flex-row gap-6 border-b-[1px] border-gray-300 '>
           <div className='border-b-2 focus-within:border-yellow-400 hover:border-gray-600 transition-all ease-in-out cursor-pointer' onClick={() => handleTabs(1)}>
              <button className='my-4'>Подготовка к олимпиадам</button>
@@ -99,10 +99,10 @@ const School = () => {
         
         
 
-      <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 1 ? "block" : "hidden"}`}>
-      <div className='tab-animation'>
+      <div className={`flex flex-col justify-center items-center mb-12 cursor-pointer ${tabs === 1 ? "block" : "hidden"}`}>
+      <div className='slide-tabs'>
           
-          <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
+          <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
             <div className='ml-6'>  
               
@@ -188,8 +188,8 @@ const School = () => {
       </div>
 
       
-      <div className={`flex flex-col justify-center items-center py-10 cursor-pointer ${tabs === 2 ? "block" : "hidden"}`}>
-      <div className='tab-animation'>
+      <div className={`flex flex-col justify-center items-center mb-12 cursor-pointer ${tabs === 2 ? "block" : "hidden"}`}>
+      <div className='slide-tabs'>
 
           <div className='flex flex-col items-center md:flex-row my-12 bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-4'>
 
@@ -374,20 +374,20 @@ const School = () => {
         </div>
       </div>
 
-        <div className={`flex flex-col justify-center items-center py-10 ${stabs === 1 ? "block" : "hidden"}`}>
+        <div className={`flex flex-col justify-center items-center mt-14 ${stabs === 1 ? "block" : "hidden"}`}>
           <div className='tab-animation mx-4'>
             <Explore />
           </div>
         </div>
 
-        <div className={`flex flex-col justify-center items-center py-10 ${stabs === 2 ? "block" : "hidden"}`}>
-          <div className='tab-animation mx-4'>
+        <div className={`flex flex-col justify-center items-center mb-12 ${stabs === 2 ? "block" : "hidden"}`}>
+          <div className='slide-tabs mx-4'>
             <Prep />
           </div>
         </div>
 
-        <div className={`flex flex-col justify-center items-center py-10   ${stabs === 3 ? "block" : "hidden"}`}>
-          <div className='tab-animation'>
+        <div className={`flex flex-col justify-center items-center mb-10 ${stabs === 3 ? "block" : "hidden"}`}>
+          <div className='slide-tabs mx-4'>
            <Compe />
           </div>
         </div>
