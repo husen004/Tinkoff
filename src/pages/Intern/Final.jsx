@@ -4,7 +4,7 @@ import { finan } from '../../constants/Schoolar'
 
 const Final = () => {
   return (
-    <div className='tab-animation flex justify-center my-10 mx-4'>
+    <div className='slide-tabs flex justify-center mb-16 mx-4'>
       <div className='w-[1000px]'>
         {finan.map((q, index) => (
           <div key={index}>

@@ -22,7 +22,7 @@ body {
 .slide{animation:slide .2s cubic-bezier(.25,.46,.45,.94) .2s both}
 @keyframes slide{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
 
-.slide-tabs{animation:slide-tabs .4s cubic-bezier(.25,.46,.45,.94) .4s both}
+.slide-tabs{animation:slide-tabs .3s cubic-bezier(.25,.46,.45,.94) .3s both}
 @keyframes slide-tabs{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
 
 .bgimage {

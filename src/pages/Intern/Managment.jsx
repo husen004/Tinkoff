@@ -4,7 +4,7 @@ import {  managment } from '../../constants/Schoolar'
 
 const Managment = () => {
   return (
-    <div className='tab-animation flex justify-center my-10'>
+    <div className='slide-tabs flex justify-center mb-16'>
       <div className="flex flex-wrap justify-center gap-12 mx-4">
         {managment.map((a, index) => (
           <div className='flex justify-center flex-col bg-white rounded-3xl shadow-xl p-6 transition ease-in-out duration-500 md:hover:scale-105 cursor-pointer' key={index}>

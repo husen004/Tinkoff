@@ -4,7 +4,7 @@ import { market } from '../../constants/Schoolar'
 
 const Market = () => {
   return (
-    <div className='tab-animation flex justify-center my-10 mx-4'>
+    <div className='slide-tabs flex justify-center mb-16 mx-4'>
       <div className='w-[1000px]'>
         {market.map((q, index) => (
           <div key={index}>
