@@ -19,8 +19,8 @@ body {
   width: 100%;
 }
 
-.slide-bottom{animation:slide-bottom .5s cubic-bezier(.25,.46,.45,.94) 1s both}
-@keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
+.slide-bottom{animation:slide-bottom .2s cubic-bezier(.25,.46,.45,.94) .2s both}
+@keyframes slide-bottom{0%{opacity: 0; transform:translateY(0)}100%{opacity: 100; transform:translateY(50px)}}
 
 .bgimage {
   background-image: url(headevent.webp);

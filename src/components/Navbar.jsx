@@ -39,7 +39,7 @@ function handleToggle() {
       <div onClick={handleToggle} className='block md:hidden cursor-pointer mx-6'>
         {toggle ? <Icon icon={close} size={28} /> : <Icon icon={list} size={28} />}
       </div>
-      <div className={`tab-animation transition ease-in absolute lg:hidden top-20 left-0 w-full bg-white flex flex-col items-center gap-6 text-lg rounded-lg ${toggle ? "flex" : "hidden"}`}>
+      <div className={`slide-bottom transition ease-in absolute md:hidden top-0 left-0 w-full bg-white flex flex-col items-center gap-6 text-lg rounded-lg ${toggle ? "flex" : "hidden"}`}>
         <ul className='text-center my-6 w-full'>
           <li className='my-4 hover:text-gray-700'><Link to='/zero'>С нуля</Link></li>
           <li className='my-4 hover:text-gray-700'><Link to='/school'>Школьникам</Link></li>
