@@ -5,8 +5,8 @@ import icon4 from '../../assets/icons/icon4.svg'
 
 const Online = () => {
   return (
-    <div className='flex justify-center slide-tabs'>
-      <div className='flex flex-col items-center md:flex-row  my-12  bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-2 cursor-pointer'>
+    <div className='flex justify-center slide-tabs mb-10'>
+      <div className='flex flex-col items-center md:flex-row bg-white rounded-3xl shadow-lg transition duration-500 ease-in-out md:hover:scale-105 mx-2 cursor-pointer'>
 
             <div className='ml-6'>  
               

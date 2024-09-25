@@ -72,19 +72,19 @@ const Uni = () => {
           </div>
       </div>
 
-      <div className={`my-12 ${tab === 1 ? "block" : "hidden"}`}>
+      <div className={`${tab === 1 ? "block" : "hidden"}`}>
         <Online />
       </div>
 
-      <div className={`my-12 ${tab === 2 ? "block" : "hidden"}`}>
+      <div className={`${tab === 2 ? "block" : "hidden"}`}>
         <Proguni />
       </div>
 
-      <div className={`my-12 ${tab === 3 ? "block" : "hidden"}`}>
+      <div className={`${tab === 3 ? "block" : "hidden"}`}>
         <Lab />
       </div>
 
-      <div className={`my-12 ${tab === 4 ? "block" : "hidden"}`}>
+      <div className={`${tab === 4 ? "block" : "hidden"}`}>
         <Schoollar />
       </div>
 

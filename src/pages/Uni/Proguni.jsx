@@ -10,9 +10,9 @@ import WhiteButton from '../../components/WhiteButton'
 
 const Proguni = () => {
   return (
-    <div className='flex flex-col justify-center items-center tab-animation'>
+    <div className='flex flex-col justify-center items-center slide-tabs mb-6'>
     
-    <div className='flex justify-center items-center flex-wrap gap-10 my-8 mx-6'>
+    <div className='flex justify-center items-center flex-wrap gap-10 mx-6'>
 
         <div className='relative flex flex-col justify-center items-center text-center transition ease-in-out duration-500 hover:scale-105 cursor-pointer bg-darkgray rounded-3xl shadow-lg'>
           <h4 className='font-bold text-[23px] mt-8'>Проекты в НИУ ВШЭ</h4>
