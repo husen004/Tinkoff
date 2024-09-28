@@ -41,7 +41,7 @@ const School = () => {
   return (
   
     
-    <div className='w-full'>
+    <div className='relative w-full'>
 
       <div className='flex justify-center items-center flex-col pt-[100px]'>
 
@@ -71,12 +71,12 @@ const School = () => {
         ))}
       </div>
 
-      <div className='flex justify-center'>
+      <div className='z-10 sticky bottom-5 top-20 flex justify-center items-center'>
         <div className='flex flex-row justify-evenly bg-white shadow-lg rounded-3xl gap-6 px-10 pt-3 pb-6 '>
           {sicon.map((s, index) => (
-            <div className='h-full flex flex-col justify-center items-center' key={index} >
+            <div className='h-full flex flex-col justify-center items-center cursor-pointer' key={index} >
               <img src={s.icon} alt='sicon' className='mt-2 object-cover w-[25px] h-[25px]'/>
-              <div className='flex justify-center text-center h-[30px] cursor-pointer'>
+              <div className='flex justify-center text-center h-[30px]'>
                 <p className='font-sans text-[12px] max-w-[80px] md:hover:opacity-80 transition-all duration-300 ease-in-out'>{s.title}</p>
               </div>
             </div>
@@ -451,7 +451,7 @@ const School = () => {
           <HeadText title="Партнерские программы Т‑Банка" />
 
           <div className='flex justify-center py-10'>
-            <div className='flex md:flex-row flex-col rounded-3xl shadow-xl bg-darkgrey transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer'>
+            <div className='z-1 flex md:flex-row flex-col rounded-3xl shadow-xl bg-darkgrey transition-all ease-in-out duration-500 md:hover:scale-105 cursor-pointer'>
             <div className='ml-12 mt-12'>
               <h1 className="font-bold text-[34px]">Совместные проекты</h1>
               <p className='font-sans max-w-[400px] mt-2'>Летние лагеря, школы, соревнования и олимпиады, которые мы поддерживаем и проводим совместно c партнерами</p>
