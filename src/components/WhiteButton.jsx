@@ -7,4 +7,5 @@ const WhiteButton = ({ title, className }) => {
     </div>
   )
 }
+
 export default WhiteButton
